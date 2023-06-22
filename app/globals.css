@@ -1,27 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+html {
+  scroll-behavior: smooth !important;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-[#ecf0f3] dark:bg-black text-[#1f2937] dark:text-gray-300 tracking-wide;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold;
+  }
+
+  h1 {
+    @apply text-4xl sm:text-5xl md:text-6xl;
+  }
+
+  h2 {
+    @apply py-2 sm:py-4 text-3xl sm:text-4xl text-gray-700 dark:text-gray-500;
+  }
+
+  h6 {
+    @apply text-[#8c52ff] text-base sm:text-xl uppercase tracking-widest;
+  }
+
+  li {
+    @apply cursor-pointer;
+  }
+
+  input {
+    @apply dark:bg-[#121212] border-2 border-gray-300 dark:border-[#313131] rounded-lg p-3 flex;
+  }
+  button {
+    @apply shadow-xl rounded-xl bg-[#CDCDCD] dark:bg-[#434343] uppercase text-white;
+  }
 }
