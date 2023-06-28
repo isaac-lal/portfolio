@@ -6,6 +6,7 @@ import Tailwind_IMG from '../public/assets/skills/tailwind.png';
 import Mongo_IMG from '../public/assets/skills/mongo.png';
 import Postgres_IMG from '../public/assets/skills/postgres.png';
 import Express_IMG from '../public/assets/skills/express.png';
+import Next_IMG from '../public/assets/skills/next.png';
 import Node_IMG from '../public/assets/skills/node.png';
 import ComingSoon_IMG from '../public/assets/projects/coming-soon.jpg';
 import { AiOutlineMail } from 'react-icons/ai';
@@ -40,13 +41,13 @@ export const skills = [
   },
   {
     id: 6,
-    name: 'PostgreSQL',
-    img: Postgres_IMG,
+    name: 'Next.js',
+    img: Next_IMG,
   },
   {
     id: 7,
-    name: 'ExpressJS',
-    img: Express_IMG,
+    name: 'PostgreSQL',
+    img: Postgres_IMG,
   },
   {
     id: 8,
