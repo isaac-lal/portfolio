@@ -4,6 +4,7 @@ import JavaScript_IMG from '../public/assets/skills/javascript.png';
 import React_IMG from '../public/assets/skills/react.png';
 import Tailwind_IMG from '../public/assets/skills/tailwind.png';
 import Mongo_IMG from '../public/assets/skills/mongo.png';
+import Postgres_IMG from '../public/assets/skills/postgres.png';
 import Express_IMG from '../public/assets/skills/express.png';
 import Node_IMG from '../public/assets/skills/node.png';
 import ComingSoon_IMG from '../public/assets/projects/coming-soon.jpg';
@@ -39,8 +40,8 @@ export const skills = [
   },
   {
     id: 6,
-    name: 'MongoDB',
-    img: Mongo_IMG,
+    name: 'PostgreSQL',
+    img: Postgres_IMG,
   },
   {
     id: 7,
