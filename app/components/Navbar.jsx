@@ -31,14 +31,12 @@ const Navbar = () => {
         shadow
           ? 'fixed w-full h-20 shadow-xl bg-[#ecf0f3] dark:bg-black shadow-[#CCCCCC] dark:shadow-[#222222] z-[100]'
           : 'fixed w-full h-20 bg-[#ecf0f3] dark:bg-black z-[100]'
-      }
-    >
+      }>
       <div className='flex justify-between items-center w-full h-full px-6 2xl:px-16'>
         <Link
           href='https://github.com/lal-isaac/portfolio'
           target='_blank'
-          passHref
-        >
+          passHref>
           <Image
             src={Logo}
             alt='/'
@@ -52,8 +50,7 @@ const Navbar = () => {
               <Link
                 key={nav.id}
                 href={nav.url}
-                passHref
-              >
+                passHref>
                 <li className='ml-10 text-sm uppercase hover:border-b-2 transition-all border-[#8c52ff] hover:text-[#8c52ff] ease-in duration-100'>
                   {nav.name}
                 </li>
@@ -63,8 +60,7 @@ const Navbar = () => {
 
           <div
             onClick={handleNav}
-            className='md:hidden cursor-pointer'
-          >
+            className='md:hidden cursor-pointer'>
             <AiOutlineMenu size={25} />
           </div>
         </div>
@@ -75,22 +71,19 @@ const Navbar = () => {
           nav
             ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-[#ecf0f3]/70 dark:bg-black/70'
             : ''
-        }
-      >
+        }>
         <div
           className={
             nav
               ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] dark:bg-[#000000] p-10 ease-in duration-500'
               : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
-          }
-        >
+          }>
           <div>
             <div className='flex w-full items-center justify-between'>
               <Link
                 href='https://github.com/lal-isaac/portfolio'
                 target='_blank'
-                passHref
-              >
+                passHref>
                 <Image
                   src={Logo}
                   width='100'
@@ -100,8 +93,7 @@ const Navbar = () => {
               </Link>
               <div
                 onClick={handleNav}
-                className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-100 p-3 cursor-pointer hover:shadow-[#8c52ff] ease-in duration-100'
-              >
+                className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-100 p-3 cursor-pointer hover:shadow-[#8c52ff] ease-in duration-100'>
                 <AiOutlineClose />
               </div>
             </div>
@@ -117,12 +109,10 @@ const Navbar = () => {
                 <Link
                   key={nav.id}
                   href={nav.url}
-                  passHref
-                >
+                  passHref>
                   <li
                     onClick={() => setNav(false)}
-                    className='py-2 sm:py-4 text-sm uppercase hover:border-b-2 transition-0.3 border-[#8c52ff] hover:text-[#8c52ff] ease-in duration-100'
-                  >
+                    className='py-2 sm:py-4 text-sm uppercase hover:border-b-2 transition-0.3 border-[#8c52ff] hover:text-[#8c52ff] ease-in duration-100'>
                     {nav.name}
                   </li>
                 </Link>
@@ -139,8 +129,7 @@ const Navbar = () => {
                     href={link.name}
                     target='_blank'
                     rel='noreferrer'
-                    passHref
-                  >
+                    passHref>
                     <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-100 p-3 cursor-pointer hover:scale-110 hover:shadow-[#8c52ff] hover:text-[#8c52ff] ease-in duration-300'>
                       {link.icon}
                     </div>

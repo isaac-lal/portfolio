@@ -40,8 +40,7 @@ const Contact = () => {
   return (
     <div
       id='contact'
-      className='w-full lg:h-screen flex items-center'
-    >
+      className='w-full lg:h-screen flex items-center'>
       <div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
         <h6>Contact</h6>
         <h2>Where I&#39;m Available</h2>
@@ -75,8 +74,7 @@ const Contact = () => {
                       href={link.name}
                       target='_blank'
                       rel='noreferrer'
-                      passHref
-                    >
+                      passHref>
                       <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-100 p-6 cursor-pointer hover:scale-110 hover:shadow-[#8c52ff] hover:text-[#8c52ff] ease-in duration-300'>
                         {link.icon}
                       </div>
@@ -92,8 +90,7 @@ const Contact = () => {
             <div className='p-4'>
               <form
                 ref={form}
-                onSubmit={sendEmail}
-              >
+                onSubmit={sendEmail}>
                 <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                   <div className='flex flex-col'>
                     <label className='uppercase text-sm py-2'>Name</label>
@@ -131,8 +128,7 @@ const Contact = () => {
                   <textarea
                     className='dark:bg-[#121212] border-2 border-gray-300 dark:border-[#313131] rounded-lg p-3 flex'
                     rows='16'
-                    name='message'
-                  ></textarea>
+                    name='message'></textarea>
                 </div>
                 <button className='cursor-pointer hover:scale-105 w-full p-4 text-black dark:text-gray-100 mt-4 hover:bg-[#8c52ff] ease-in duration-200'>
                   Send Message
@@ -144,8 +140,7 @@ const Contact = () => {
         <div className='flex justify-center py-12'>
           <Link
             href='/#home'
-            passHref
-          >
+            passHref>
             <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-100 p-4 cursor-pointer hover:scale-110 hover:shadow-[#8c52ff] hover:text-[#8c52ff] ease-in duration-300'>
               <HiOutlineChevronDoubleUp
                 className='hover:text-[#8c52ff]'

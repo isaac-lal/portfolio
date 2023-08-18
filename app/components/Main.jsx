@@ -8,8 +8,7 @@ const Home = () => {
   return (
     <div
       id='home'
-      className='w-full h-screen text-center'
-    >
+      className='w-full h-screen text-center'>
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
           <p className='tracking-widest text-gray-800 dark:text-gray-500 text-sm sm:text-base'>
@@ -60,8 +59,7 @@ const Home = () => {
                 href={link.name}
                 target='_blank'
                 rel='noreferrer'
-                passHref
-              >
+                passHref>
                 <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-100 p-6 cursor-pointer hover:scale-110 hover:shadow-[#8c52ff] hover:text-[#8c52ff] ease-in duration-300'>
                   {link.icon}
                 </div>

@@ -8,8 +8,7 @@ const Projects = () => {
   return (
     <div
       id='projects'
-      className='w-full lg:h-screen flex items-center'
-    >
+      className='w-full lg:h-screen flex items-center'>
       <div className='max-w-[1240px] mx-auto px-2 py-16'>
         <h6>Projects</h6>
         <h2>What I&#39;ve Built</h2>
@@ -18,8 +17,7 @@ const Projects = () => {
           {projects.map((project) => (
             <div
               key={project.id}
-              className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 dark:shadow-gray-100 rounded-xl p-4 group hover:shadow-[#8c52ff] hover:scale-105 hover:bg-[#ecf0f3] hover:dark:bg-black ease-in duration-100'
-            >
+              className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 dark:shadow-gray-100 rounded-xl p-4 group hover:shadow-[#8c52ff] hover:scale-105 hover:bg-[#ecf0f3] hover:dark:bg-black ease-in duration-100'>
               <Image
                 className='rounded-xl group-hover:opacity-10'
                 src={project.img}
@@ -36,8 +34,7 @@ const Projects = () => {
                     href={project.demoURL}
                     target='_blank'
                     rel='noreferrer'
-                    passHref
-                  >
+                    passHref>
                     <p className='text-center py-3 rounded-3xl bg-white dark:bg-[#232323] font-bond sm:text-lg cursor-pointer hover:bg-[#8c52ff] ease-in duration-200'>
                       Demo
                     </p>
@@ -46,8 +43,7 @@ const Projects = () => {
                     href={project.codeURL}
                     target='_blank'
                     rel='noreferrer'
-                    passHref
-                  >
+                    passHref>
                     <p className='text-center py-3 rounded-3xl bg-white dark:bg-[#232323] font-bond sm:text-lg cursor-pointer hover:bg-[#8c52ff] ease-in duration-200'>
                       Code
                     </p>
