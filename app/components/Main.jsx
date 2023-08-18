@@ -43,12 +43,12 @@ const Home = () => {
             />
           </h2>
           <p className='text-sm sm:text-base py-2 sm:py-4 pb-10 sm:pb-20 sm:max-w-[70%] m-auto'>
-            I&#39;m a Software Engineer that specializes in full-stack web
-            development. I am looking to be a part of the process of making
-            beautiful, responsive, and functional applications and learning
-            every single day to improve my skills. With the belief that my work
-            ethic and dedication can contribute to something great, I hope to
-            have the opportunity to deliver that same experience with you.
+            Self-taught developer who is passionate about delivering functional
+            applications that is aesthetically pleasing and seamless for the
+            user. Eager to grow my knowledge, I have consistently been learning
+            every day from my peers and studying many resources to improve my
+            skills. I am really passionate about developing outstanding products
+            and I am hoping to have an opportunity to do the same with you.
           </p>
           <p className='text-sm sm:text-base uppercase tracking-widest text-[#8c52ff]'>
             Let&#39;s Connect

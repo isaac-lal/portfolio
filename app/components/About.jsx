@@ -22,7 +22,7 @@ const About = () => {
             eventually, I was able to produce full-stack applications as a part
             of a team. Building many real-world projects and applications that
             are useful helped me appreciate the process much more and I want to
-            showcase what I've done in my portfolio. I hope you enjoy!{' '}
+            showcase what I&#39;ve done in my portfolio. I hope you enjoy!{' '}
           </p>
         </div>
         <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 dark:shadow-gray-100 rounded-xl flex items-center justify-center p-4 hover:scale-105 hover:shadow-[#8c52ff] hover:text-[#8c52ff] ease-in duration-300'>
