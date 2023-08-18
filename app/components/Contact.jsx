@@ -1,7 +1,7 @@
 'use client';
 import React, { useRef } from 'react';
 import { links } from '../data';
-import Contact_IMG from '../../public/assets/contact.jpeg';
+import Contact_IMG from '../../public/assets/contact.jpg';
 import emailjs from '@emailjs/browser';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 import Image from 'next/image';

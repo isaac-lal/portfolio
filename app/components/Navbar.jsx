@@ -1,4 +1,3 @@
-'use client';
 import React, { useState, useEffect } from 'react';
 import Logo from '../../public/assets/logo.png';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
@@ -37,7 +36,6 @@ const Navbar = () => {
         <Link
           href='https://github.com/lal-isaac/portfolio'
           target='_blank'
-          passHref
         >
           <Image
             src={Logo}
@@ -52,7 +50,6 @@ const Navbar = () => {
               <Link
                 key={nav.id}
                 href={nav.url}
-                passHref
               >
                 <li className='ml-10 text-sm uppercase hover:border-b-2 transition-all border-[#8c52ff] hover:text-[#8c52ff] ease-in duration-100'>
                   {nav.name}
@@ -89,7 +86,6 @@ const Navbar = () => {
               <Link
                 href='https://github.com/lal-isaac/portfolio'
                 target='_blank'
-                passHref
               >
                 <Image
                   src={Logo}
@@ -117,7 +113,6 @@ const Navbar = () => {
                 <Link
                   key={nav.id}
                   href={nav.url}
-                  passHref
                 >
                   <li
                     onClick={() => setNav(false)}
@@ -130,7 +125,7 @@ const Navbar = () => {
             </ul>
             <div className='pt-10 sm:pt-40'>
               <p className='text-sm sm:text-base uppercase tracking-widest text-[#8c52ff]'>
-                Let&#39;s Connect
+                Let's Connect
               </p>
               <div className='text-base sm:text-lg flex items-center justify-between my-4 w-full sm:w-[80%]'>
                 {links.map((link) => (
@@ -139,7 +134,6 @@ const Navbar = () => {
                     href={link.name}
                     target='_blank'
                     rel='noreferrer'
-                    passHref
                   >
                     <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-100 p-3 cursor-pointer hover:scale-110 hover:shadow-[#8c52ff] hover:text-[#8c52ff] ease-in duration-300'>
                       {link.icon}
