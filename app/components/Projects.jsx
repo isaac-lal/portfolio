@@ -1,23 +1,39 @@
 'use client';
-import React from 'react';
+import React, { useEffect } from 'react';
 import { projects } from '../data';
 import Image from 'next/image';
 import Link from 'next/link';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Projects = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <div
       id='projects'
       className='w-full lg:h-screen flex items-center'>
       <div className='max-w-[1240px] mx-auto px-2 py-16'>
-        <h6>Projects</h6>
-        <h2>What I&#39;ve Built</h2>
+        <h6
+          data-aos='fade-right'
+          data-aos-duration='2000'>
+          Projects
+        </h6>
+        <h2
+          data-aos='fade-right'
+          data-aos-duration='2000'>
+          What I&#39;ve Built
+        </h2>
 
         <div className='grid md:grid-cols-2 gap-8'>
           {projects.map((project) => (
             <div
               key={project.id}
-              className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 dark:shadow-gray-100 rounded-xl p-4 group hover:shadow-[#8c52ff] hover:scale-105 hover:bg-[#ecf0f3] hover:dark:bg-black ease-in duration-100'>
+              className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 dark:shadow-gray-100 rounded-xl p-4 group hover:shadow-[#8c52ff] hover:scale-105 hover:bg-[#ecf0f3] hover:dark:bg-black ease-in duration-100'
+              data-aos='fade-up'
+              data-aos-duration='2000'>
               <Image
                 className='rounded-xl group-hover:opacity-10'
                 src={project.img}

@@ -5,8 +5,14 @@ import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { navs, links } from '../data';
 import Image from 'next/image';
 import Link from 'next/link';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Navbar = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
 
@@ -27,6 +33,8 @@ const Navbar = () => {
   }, []);
   return (
     <div
+      data-aos='fade-down'
+      data-aos-duration='1000'
       className={
         shadow
           ? 'fixed w-full h-20 shadow-xl bg-[#ecf0f3] dark:bg-black shadow-[#CCCCCC] dark:shadow-[#222222] z-[100]'

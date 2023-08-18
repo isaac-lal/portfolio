@@ -1,13 +1,19 @@
 'use client';
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import { links } from '../data';
 import Contact_IMG from '../../public/assets/contact.jpg';
 import emailjs from '@emailjs/browser';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 import Image from 'next/image';
 import Link from 'next/link';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Contact = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -42,12 +48,26 @@ const Contact = () => {
       id='contact'
       className='w-full lg:h-screen flex items-center'>
       <div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
-        <h6>Contact</h6>
-        <h2>Where I&#39;m Available</h2>
+        <h6
+          data-aos='fade-right'
+          data-aos-duration='2000'>
+          Contact
+        </h6>
+        <h2
+          data-aos='fade-right'
+          data-aos-duration='2000'>
+          Where I&#39;m Available
+        </h2>
         <div className='grid lg:grid-cols-5 gap-8'>
           {/* left */}
-          <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 dark:shadow-gray-100 rounded-xl p-4 hover:shadow-[#8c52ff] ease-in duration-100'>
-            <div className='lg:p-4 h-full'>
+          <div
+            className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 dark:shadow-gray-100 rounded-xl p-4 hover:shadow-[#8c52ff] ease-in duration-100'
+            data-aos='flip-right'
+            data-aos-duration='2000'>
+            <div
+              className='lg:p-4 h-full'
+              data-aos='fade-up'
+              data-aos-duration='3000'>
               <div>
                 <Image
                   className='rounded-xl ease-in duration-300'
@@ -86,8 +106,14 @@ const Contact = () => {
           </div>
           {/* right */}
 
-          <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 dark:shadow-gray-100 rounded-xl lg:p-4 hover:shadow-[#8c52ff] ease-in duration-100'>
-            <div className='p-4'>
+          <div
+            className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 dark:shadow-gray-100 rounded-xl lg:p-4 hover:shadow-[#8c52ff] ease-in duration-100'
+            data-aos='flip-left'
+            data-aos-duration='2000'>
+            <div
+              className='p-4'
+              data-aos='fade-up'
+              data-aos-duration='3000'>
               <form
                 ref={form}
                 onSubmit={sendEmail}>
