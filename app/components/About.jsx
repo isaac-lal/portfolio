@@ -17,18 +17,21 @@ const About = () => {
         <div className='col-span-2'>
           <h6
             data-aos='fade-right'
-            data-aos-duration='2000'>
+            data-aos-duration='2000'
+            data-aos-offset='300'>
             About
           </h6>
           <h2
             data-aos='fade-right'
-            data-aos-duration='2000'>
+            data-aos-duration='2000'
+            data-aos-offset='300'>
             Who I Am
           </h2>
           <p
             className='my-5 text-sm sm:text-base py-2'
             data-aos='fade-up'
-            data-aos-duration='2000'>
+            data-aos-duration='2000'
+            data-aos-offset='300'>
             Interacting with websites from a young age, I was very intrigued by
             the steps needed to build them. Many web applications today took
             extreme work and effort to create an extremely well-crafted version
@@ -44,7 +47,8 @@ const About = () => {
         <div
           className='w-full h-auto m-auto shadow-xl shadow-gray-400 dark:shadow-gray-100 rounded-xl flex items-center justify-center p-4 hover:scale-105 hover:shadow-[#8c52ff] hover:text-[#8c52ff] ease-in duration-300'
           data-aos='fade-left'
-          data-aos-duration='2000'>
+          data-aos-duration='2000'
+          data-aos-offset='300'>
           <Image
             src={About_IMG}
             className='rounded-xl'

@@ -16,7 +16,10 @@ const Footer = () => {
              font-bold
              border-t-4 border-gray-500
              bottom-0
-             p-4'>
+             p-4'
+             data-aos='fade-up'
+              data-aos-duration='2000'
+             >
         © 2023 Isaac Lal
       </div>
     </div>

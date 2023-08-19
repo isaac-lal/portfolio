@@ -50,12 +50,14 @@ const Contact = () => {
       <div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
         <h6
           data-aos='fade-right'
-          data-aos-duration='2000'>
+          data-aos-duration='2000'
+          data-aos-offset='300'>
           Contact
         </h6>
         <h2
           data-aos='fade-right'
-          data-aos-duration='2000'>
+          data-aos-duration='2000'
+          data-aos-offset='300'>
           Where I&#39;m Available
         </h2>
         <div className='grid lg:grid-cols-5 gap-8'>
@@ -63,11 +65,13 @@ const Contact = () => {
           <div
             className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 dark:shadow-gray-100 rounded-xl p-4 hover:shadow-[#8c52ff] ease-in duration-100'
             data-aos='flip-right'
-            data-aos-duration='2000'>
+            data-aos-duration='2000'
+            data-aos-offset='300'>
             <div
               className='lg:p-4 h-full'
               data-aos='fade-up'
-              data-aos-duration='3000'>
+              data-aos-duration='3000'
+              data-aos-offset='300'>
               <div>
                 <Image
                   className='rounded-xl ease-in duration-300'
@@ -109,11 +113,13 @@ const Contact = () => {
           <div
             className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 dark:shadow-gray-100 rounded-xl lg:p-4 hover:shadow-[#8c52ff] ease-in duration-100'
             data-aos='flip-left'
-            data-aos-duration='2000'>
+            data-aos-duration='2000'
+            data-aos-offset='300'>
             <div
               className='p-4'
               data-aos='fade-up'
-              data-aos-duration='3000'>
+              data-aos-duration='3000'
+              data-aos-offset='300'>
               <form
                 ref={form}
                 onSubmit={sendEmail}>

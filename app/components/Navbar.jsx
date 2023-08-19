@@ -34,7 +34,7 @@ const Navbar = () => {
   return (
     <div
       data-aos='fade-down'
-      data-aos-duration='1000'
+      data-aos-duration='1500'
       className={
         shadow
           ? 'fixed w-full h-20 shadow-xl bg-[#ecf0f3] dark:bg-black shadow-[#CCCCCC] dark:shadow-[#222222] z-[100]'

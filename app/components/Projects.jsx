@@ -18,12 +18,14 @@ const Projects = () => {
       <div className='max-w-[1240px] mx-auto px-2 py-16'>
         <h6
           data-aos='fade-right'
-          data-aos-duration='2000'>
+          data-aos-duration='2000'
+          data-aos-offset='300'>
           Projects
         </h6>
         <h2
           data-aos='fade-right'
-          data-aos-duration='2000'>
+          data-aos-duration='2000'
+          data-aos-offset='300'>
           What I&#39;ve Built
         </h2>
 
@@ -33,7 +35,8 @@ const Projects = () => {
               key={project.id}
               className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 dark:shadow-gray-100 rounded-xl p-4 group hover:shadow-[#8c52ff] hover:scale-105 hover:bg-[#ecf0f3] hover:dark:bg-black ease-in duration-100'
               data-aos='fade-up'
-              data-aos-duration='2000'>
+              data-aos-duration='2000'
+              data-aos-offset='300'>
               <Image
                 className='rounded-xl group-hover:opacity-10'
                 src={project.img}

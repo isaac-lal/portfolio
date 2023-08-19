@@ -17,12 +17,14 @@ const Skills = () => {
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
         <h6
           data-aos='fade-right'
-          data-aos-duration='2000'>
+          data-aos-duration='2000'
+          data-aos-offset='300'>
           Skills
         </h6>
         <h2
           data-aos='fade-right'
-          data-aos-duration='2000'>
+          data-aos-duration='2000'
+          data-aos-offset='500'>
           What I Can Do
         </h2>
         <div className='text-sm sm:text-base grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
@@ -31,7 +33,8 @@ const Skills = () => {
               key={skill.id}
               className='p-6 shadow-lg shadow-gray-400 dark:shadow-gray-100 rounded-xl hover:scale-105 hover:shadow-[#8c52ff] hover:text-[#8c52ff] ease-in duration-300'
               data-aos='fade-up'
-              data-aos-duration='2000'>
+              data-aos-duration='2000'
+              data-aos-offset='500'>
               <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto cursor-pointer'>
                   <Image
@@ -41,6 +44,7 @@ const Skills = () => {
                     alt='HTML'
                     data-aos='fade-up'
                     data-aos-duration='3000'
+                    data-aos-offset='500'
                   />
                 </div>
                 <div className='flex flex-col items-center justify-center'>
