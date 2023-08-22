@@ -2,12 +2,14 @@ import HTML_IMG from '../public/assets/skills/html.png';
 import CSS_IMG from '../public/assets/skills/css.png';
 import JavaScript_IMG from '../public/assets/skills/javascript.png';
 import React_IMG from '../public/assets/skills/react.png';
-import Tailwind_IMG from '../public/assets/skills/tailwind.png';
-import Mongo_IMG from '../public/assets/skills/mongo.png';
-import Postgres_IMG from '../public/assets/skills/postgres.png';
+import TailwindCSS_IMG from '../public/assets/skills/tailwind.png';
+import MongoDB_IMG from '../public/assets/skills/mongo.png';
+import PostgreSQL_IMG from '../public/assets/skills/postgres.png';
 import Express_IMG from '../public/assets/skills/express.png';
-import Next_IMG from '../public/assets/skills/next.png';
-import Node_IMG from '../public/assets/skills/node.png';
+import Nextjs_IMG from '../public/assets/skills/next.png';
+import Nodejs_IMG from '../public/assets/skills/node.png';
+import Vite_IMG from '../public/assets/skills/vite.png';
+import TypeScript_IMG from '../public/assets/skills/typescript.png';
 import ComingSoon_IMG from '../public/assets/projects/coming-soon.jpg';
 import { AiOutlineMail } from 'react-icons/ai';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
@@ -37,22 +39,42 @@ export const skills = [
   {
     id: 5,
     name: 'Tailwind CSS',
-    img: Tailwind_IMG,
+    img: TailwindCSS_IMG,
   },
   {
     id: 6,
     name: 'Next.js',
-    img: Next_IMG,
+    img: Nextjs_IMG,
   },
   {
     id: 7,
     name: 'PostgreSQL',
-    img: Postgres_IMG,
+    img: PostgreSQL_IMG,
   },
   {
     id: 8,
+    name: 'MongoDB',
+    img: MongoDB_IMG,
+  },
+  {
+    id: 9,
+    name: 'Vite',
+    img: Vite_IMG,
+  },
+  {
+    id: 10,
+    name: 'Express',
+    img: Express_IMG,
+  },
+  {
+    id: 11,
     name: 'Node.js',
-    img: Node_IMG,
+    img: Nodejs_IMG,
+  },
+  {
+    id: 12,
+    name: 'TypeScript',
+    img: TypeScript_IMG,
   },
 ];
 

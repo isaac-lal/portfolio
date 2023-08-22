@@ -44,94 +44,40 @@ const Contact = () => {
   };
 
   return (
-    <div
+    <section
       id='contact'
-      className='w-full lg:h-screen flex items-center'>
-      <div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
+      className='w-full mt-16 px-2 sm:px-16 md:px-28 lg:px-40'>
+      <div className='max-w-[1240px] m-auto px-2'>
         <h6
           data-aos='fade-right'
-          data-aos-duration='2000'
-          data-aos-offset='300'>
+          data-aos-duration='1000'>
           Contact
         </h6>
         <h2
           data-aos='fade-right'
-          data-aos-duration='2000'
-          data-aos-offset='300'>
+          data-aos-duration='1000'>
           Where I&#39;m Available
         </h2>
-        <div className='grid lg:grid-cols-5 gap-8'>
-          {/* left */}
-          <div
-            className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 dark:shadow-gray-100 rounded-xl p-4 hover:shadow-[#8c52ff] ease-in duration-100'
-            data-aos='flip-right'
-            data-aos-duration='2000'
-            data-aos-offset='300'>
-            <div
-              className='lg:p-4 h-full'
-              data-aos='fade-up'
-              data-aos-duration='3000'
-              data-aos-offset='300'>
-              <div>
-                <Image
-                  className='rounded-xl ease-in duration-300'
-                  src={Contact_IMG}
-                  alt='/'
-                />
-              </div>
-              <div>
-                <h2 className='py-2 text-[#8c52ff] text-center'>Isaac Lal</h2>
-                <h3 className='text-center'>Software Engineer</h3>
-                <p className='text-sm text-center sm:text-base py-4'>
-                  I am available for communication through email. Just fill out
-                  the form to send me an email and we&#39;ll talk!
-                </p>
-              </div>
-              <div>
-                <p className='text-sm sm:text-base uppercase pt-8 text-[#8c52ff] text-center'>
-                  Let&#39;s Connect
-                </p>
-                <div className='text-base sm:text-lg flex items-center justify-between py-4'>
-                  {links.map((link) => (
-                    <Link
-                      key={link.id}
-                      href={link.name}
-                      target='_blank'
-                      rel='noreferrer'
-                      passHref>
-                      <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-100 p-6 cursor-pointer hover:scale-110 hover:shadow-[#8c52ff] hover:text-[#8c52ff] ease-in duration-300'>
-                        {link.icon}
-                      </div>
-                    </Link>
-                  ))}
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* right */}
-
-          <div
-            className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 dark:shadow-gray-100 rounded-xl lg:p-4 hover:shadow-[#8c52ff] ease-in duration-100'
-            data-aos='flip-left'
-            data-aos-duration='2000'
-            data-aos-offset='300'>
+        <div
+          data-aos='flip-left'
+          data-aos-duration='1000'>
+          <div className='w-full h-auto shadow-xl shadow-gray-400 hover:scale-105 dark:shadow-gray-100 rounded-xl lg:p-4 hover:shadow-[#8c52ff] ease-in duration-100'>
             <div
               className='p-4'
               data-aos='fade-up'
-              data-aos-duration='3000'
-              data-aos-offset='300'>
+              data-aos-duration='1000'>
               <form
                 ref={form}
                 onSubmit={sendEmail}>
                 <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
-                  <div className='flex flex-col'>
+                  <div className='flex flex-col py-2'>
                     <label className='uppercase text-sm py-2'>Name</label>
                     <input
                       type='text'
                       name='user_name'
                     />
                   </div>
-                  <div className='flex flex-col'>
+                  <div className='flex flex-col py-2'>
                     <label className='uppercase text-sm py-2'>
                       Phone Number
                     </label>
@@ -182,7 +128,7 @@ const Contact = () => {
           </Link>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

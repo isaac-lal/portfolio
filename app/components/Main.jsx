@@ -12,43 +12,47 @@ const Home = () => {
   }, []);
 
   return (
-    <div
+    <section
       id='home'
       className='w-full h-screen text-center'>
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
           <p
-            className='tracking-widest text-gray-800 dark:text-gray-500 text-sm sm:text-base'
+            className='tracking-widest text-gray-800 dark:text-gray-500 text-base sm:text-lg'
             data-aos='fade-down'
-            data-aos-duration='2000'>
+            data-aos-duration='1000'>
             Welcome, my name is
           </p>
           <h1
             className='text-4xl sm:text-5xl py-1 sm:py-4 text-gray-700 dark:text-gray-400'
             data-aos='fade-down'
-            data-aos-duration='2000'>
+            data-aos-duration='1000'>
             <span className='text-[#8c52ff]'>Isaac Lal</span>
           </h1>
           <h2
             className='py-4 justify-center flex text-base sm:text-lg text-gray-700 dark:text-gray-400'
             data-aos='fade-down'
-            data-aos-duration='2000'>
+            data-aos-duration='1000'>
             <TypeAnimation
               sequence={[
                 'A Software Engineer',
                 3500,
                 'A Web Developer',
                 3500,
+                'A Full-Stack Developer',
+                3500,
+                'A Self-Taught Learner',
+                3500,
                 'A Coder',
                 3500,
-                'A Tech Enthusiast',
-                3500,
-                'A Digital Consumer',
+                'A Programmer',
                 3500,
                 'A Nerd',
                 3500,
                 'A Nice Person',
-                3500,
+                10000,
+                'a one piece fan',
+                500,
               ]}
               wrapper='div'
               cursor={true}
@@ -57,26 +61,27 @@ const Home = () => {
             />
           </h2>
           <p
-            className='text-sm sm:text-base py-2 sm:py-4 pb-10 sm:pb-20 sm:max-w-[70%] m-auto'
+            className='text-base sm:text-lg py-2 sm:py-4 pb-10 sm:pb-20 sm:max-w-[70%] m-auto'
             data-aos='fade-up'
-            data-aos-duration='3000'>
-            Self-taught developer who is passionate about delivering functional
-            applications that is aesthetically pleasing and seamless for the
-            user. Eager to grow my knowledge, I have consistently been learning
-            every day from my peers and studying many resources to improve my
-            skills. I am really passionate about developing outstanding products
-            and I am hoping to have an opportunity to do the same with you.
+            data-aos-duration='1000'>
+            This is my portfolio, showcasing all of my knowledge as a Software
+            Engineer, with a primary focus on Full-Stack Web Development. It
+            encompasses my skills in relevant technologies, my finest projects
+            featuring fully designed front-ends and meticulously configured
+            backends, along with a contact form to facilitate communication. As
+            you navigate through this portfolio, I hope that my skills not only
+            impress you but also quench your curiosity!
           </p>
           <p
             className='text-sm sm:text-base uppercase tracking-widest text-[#8c52ff]'
             data-aos='fade-up'
-            data-aos-duration='3000'>
+            data-aos-duration='1000'>
             Let&#39;s Connect
           </p>
           <div
             className='text-base sm:text-lg flex items-center justify-between max-w-[330px] m-auto py-4'
             data-aos='fade-up'
-            data-aos-duration='3000'>
+            data-aos-duration='1000'>
             {links.map((link) => (
               <Link
                 key={link.id}
@@ -92,7 +97,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

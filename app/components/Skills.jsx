@@ -11,51 +11,48 @@ const Skills = () => {
   }, []);
 
   return (
-    <div
+    <section
       id='skills'
-      className='w-full lg:h-screen p-2'>
+      className='w-full mt-16 px-2 sm:px-16 md:px-28 lg:px-40'>
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
         <h6
           data-aos='fade-right'
-          data-aos-duration='2000'
-          data-aos-offset='300'>
+          data-aos-duration='1000'>
           Skills
         </h6>
         <h2
           data-aos='fade-right'
-          data-aos-duration='2000'
-          data-aos-offset='300'>
+          data-aos-duration='1000'>
           What I Can Do
         </h2>
-        <div className='text-sm sm:text-base grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
+        <div className='text-xs sm:text-sm grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-4'>
           {skills.map((skill) => (
             <div
-              key={skill.id}
-              className='p-6 shadow-lg shadow-gray-400 dark:shadow-gray-100 rounded-xl hover:scale-105 hover:shadow-[#8c52ff] hover:text-[#8c52ff] ease-in duration-300'
-              data-aos='fade-up'
-              data-aos-duration='2000'
-              data-aos-offset='300'>
-              <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                <div className='m-auto cursor-pointer'>
-                  <Image
-                    src={skill.img}
-                    width='64'
-                    height='64'
-                    alt='HTML'
-                    data-aos='fade-up'
-                    data-aos-duration='3000'
-                    data-aos-offset='300'
-                  />
-                </div>
-                <div className='flex flex-col items-center justify-center'>
-                  <h3>{skill.name}</h3>
+              data-aos='zoom-in-up'
+              data-aos-duration='1000'>
+              <div
+                key={skill.id}
+                className='p-6 shadow-lg shadow-gray-400 dark:shadow-gray-100 rounded-xl hover:scale-105 hover:shadow-[#8c52ff] hover:text-[#8c52ff] ease-in duration-300'>
+                <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                  <div className='m-auto cursor-pointer'>
+                    <Image
+                      src={skill.img}
+                      width='64'
+                      alt='HTML'
+                      data-aos='fade-up'
+                      data-aos-duration='1500'
+                    />
+                  </div>
+                  <div className='flex flex-col items-center justify-center'>
+                    <h3>{skill.name}</h3>
+                  </div>
                 </div>
               </div>
             </div>
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -32,7 +32,7 @@ const Navbar = () => {
     window.addEventListener('scroll', handleShadow);
   }, []);
   return (
-    <div
+    <header
       data-aos='fade-down'
       data-aos-duration='1500'
       className={
@@ -42,7 +42,7 @@ const Navbar = () => {
       }>
       <div className='flex justify-between items-center w-full h-full px-6 2xl:px-16'>
         <Link
-          href='https://github.com/lal-isaac/portfolio'
+          href='https://github.com/isaac-lal/portfolio'
           target='_blank'
           passHref>
           <Image
@@ -89,7 +89,7 @@ const Navbar = () => {
           <div>
             <div className='flex w-full items-center justify-between'>
               <Link
-                href='https://github.com/lal-isaac/portfolio'
+                href='https://github.com/isaac-lal/portfolio'
                 target='_blank'
                 passHref>
                 <Image
@@ -148,7 +148,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-    </div>
+    </header>
   );
 };
 
