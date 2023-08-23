@@ -118,16 +118,18 @@ const Navbar = () => {
                   key={nav.id}
                   href={nav.url}
                   passHref>
-                  <li
-                    onClick={() => setNav(false)}
-                    className='py-2 sm:py-4 text-sm uppercase hover:border-b-2 transition-0.3 border-[#8c52ff] hover:text-[#8c52ff] ease-in duration-100'>
-                    {nav.name}
-                  </li>
+                  <div className='flex items-center justify-center'>
+                    <li
+                      onClick={() => setNav(false)}
+                      className='py-2 sm:py-4 text-sm uppercase hover:border-b-2 transition-0.3 border-[#8c52ff] hover:text-[#8c52ff] ease-in duration-100'>
+                      {nav.name}
+                    </li>
+                  </div>
                 </Link>
               ))}
             </ul>
             <div className='pt-10 sm:pt-40'>
-              <p className='text-sm sm:text-base uppercase tracking-widest text-[#8c52ff]'>
+              <p className='text-sm flex justify-center items-center sm:text-base uppercase tracking-widest text-[#8c52ff]'>
                 Let&#39;s Connect
               </p>
               <div className='text-base sm:text-lg flex items-center justify-between my-4 w-full sm:w-[80%]'>
