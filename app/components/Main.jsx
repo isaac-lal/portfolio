@@ -57,20 +57,17 @@ const Home = () => {
               wrapper='div'
               cursor={true}
               repeat={Infinity}
-              style={{ fontSize: '2em' }}
+              style={{ fontSize: '1.5em' }}
             />
           </h2>
           <p
-            className='text-base sm:text-lg py-2 sm:py-4 pb-10 sm:pb-20 sm:max-w-[70%] m-auto'
+            className='text-sm sm:text-base py-2 sm:py-4 pb-10 sm:pb-20 sm:max-w-[70%] m-auto'
             data-aos='fade-up'
             data-aos-duration='1000'>
             This is my portfolio, showcasing all of my knowledge as a Software
-            Engineer, with a primary focus on Full-Stack Web Development. It
-            encompasses my skills in relevant technologies, my finest projects
-            featuring fully designed front-ends and meticulously configured
-            backends, along with a contact form to facilitate communication. As
-            you navigate through this portfolio, I hope that my skills not only
-            impress you but also quench your curiosity!
+            Engineer, with a primary focus on Full-Stack Web Development. Here
+            you will find my skills in relevant technologies, my finest
+            projects, and a contact form to get in touch!
           </p>
           <p
             className='text-sm sm:text-base uppercase tracking-widest text-[#8c52ff]'

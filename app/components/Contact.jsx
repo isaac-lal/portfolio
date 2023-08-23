@@ -71,14 +71,16 @@ const Contact = () => {
                 onSubmit={sendEmail}>
                 <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                   <div className='flex flex-col py-2'>
-                    <label className='uppercase text-sm py-2'>Name</label>
+                    <label className='uppercase text-xs sm:text-sm py-2'>
+                      Name
+                    </label>
                     <input
                       type='text'
                       name='user_name'
                     />
                   </div>
                   <div className='flex flex-col py-2'>
-                    <label className='uppercase text-sm py-2'>
+                    <label className='uppercase text-xs sm:text-sm py-2'>
                       Phone Number
                     </label>
                     <input
@@ -88,21 +90,27 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className='flex flex-col py-2'>
-                  <label className='uppercase text-sm py-2'>Email</label>
+                  <label className='uppercase text-xs sm:text-sm py-2'>
+                    Email
+                  </label>
                   <input
                     type='email'
                     name='user_email'
                   />
                 </div>
                 <div className='flex flex-col py-2'>
-                  <label className='uppercase text-sm py-2'>Subject</label>
+                  <label className='uppercase text-xs sm:text-sm py-2'>
+                    Subject
+                  </label>
                   <input
                     type='text'
                     name='subject'
                   />
                 </div>
                 <div className='flex flex-col py-2'>
-                  <label className='uppercase text-sm py-2'>Message</label>
+                  <label className='uppercase text-xs sm:text-sm py-2'>
+                    Message
+                  </label>
                   <textarea
                     className='dark:bg-[#121212] border-2 border-gray-300 dark:border-[#313131] rounded-lg p-3 flex'
                     rows='16'

@@ -26,7 +26,7 @@ const About = () => {
         </h2>
         <div className='flex lg:flex-row flex-col'>
           <p
-            className='my-5 pr-8 text-base sm:text-lg'
+            className='flex items-center justify-center my-5 sm:pr-8 text-sm sm:text-base'
             data-aos='fade-right'
             data-aos-duration='1000'>
             I am a self-taught developer who is passionate about delivering
@@ -55,7 +55,7 @@ const About = () => {
               <Image
                 src={About_IMG}
                 className='rounded-full'
-                width={3000}
+                width={2000}
                 alt='/'
               />
             </div>
