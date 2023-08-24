@@ -28,33 +28,49 @@ const About = () => {
           data-aos-once='true'>
           Who I Am
         </h2>
-        <div className='flex lg:flex-row flex-col'>
-          <p
-            className='flex items-center justify-center my-5 sm:pr-8 text-sm sm:text-base'
-            data-aos='fade-right'
-            data-aos-duration='1000'
-            data-aos-offset='200'
-            data-aos-once='true'>
-            I am a self-taught developer who is passionate about delivering
-            functional applications that is aesthetically pleasing and seamless
-            for the user. Eager to grow my knowledge, I have consistently been
-            learning every day from many resources to improve my skills. <br />
-            <br /> Interacting with websites from a young age, I was very
-            intrigued by the steps needed to build them. I started off with HTML
-            and CSS, including a little JavaScript. Then, I focused on React and
-            mastered JavaScript as my primary skills along with frameworks like
-            Next.js and TailwindCSS. Finally, I learned back-end technologies
-            such as MongoDB, Express, and Node.js to create a full-stack
-            product.
-            <br />
-            <br />
-            With these skills that I have learned, I am able to create
-            functional products that perform well and looks great. I am
-            continuing to learn more every single day to improve my knowledge. I
-            hope that I can use my skills to make a product that can satisfy
-            you!{' '}
-          </p>
+        <div className='flex items-center justify-center lg:flex-row flex-col'>
+          <div>
+            <p
+              className='my-5 sm:pr-8 text-sm sm:text-base'
+              data-aos='fade-right'
+              data-aos-duration='1000'
+              data-aos-offset='200'
+              data-aos-once='true'>
+              I am a self-taught developer who is passionate about delivering
+              functional applications that is aesthetically pleasing and
+              seamless for the user. Eager to grow my knowledge, I have
+              consistently been learning every day from many resources to
+              improve my skills.{' '}
+            </p>
+            <p
+              className='my-5 sm:pr-8 text-sm sm:text-base'
+              data-aos='fade-right'
+              data-aos-duration='1000'
+              data-aos-offset='200'
+              data-aos-once='true'>
+              Interacting with websites from a young age, I was very intrigued
+              by the steps needed to build them. I started off with HTML and
+              CSS, including a little JavaScript. Then, I focused on React and
+              mastered JavaScript as my primary skills along with frameworks
+              like Next.js and TailwindCSS. Finally, I learned back-end
+              technologies such as MongoDB, Express, and Node.js to create a
+              full-stack product.{' '}
+            </p>
+            <p
+              className='my-5 sm:pr-8 text-sm sm:text-base'
+              data-aos='fade-right'
+              data-aos-duration='1000'
+              data-aos-offset='200'
+              data-aos-once='true'>
+              With these skills that I have learned, I am able to create
+              functional products that perform well and looks great. I am
+              continuing to learn more every single day to improve my knowledge.
+              I hope that I can use my skills to make a product that can satisfy
+              you!{' '}
+            </p>
+          </div>
           <div
+            className='lg:pt-0 pt-20'
             data-aos='fade-left'
             data-aos-duration='1000'
             data-aos-offset='200'
