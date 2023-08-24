@@ -21,13 +21,15 @@ const Projects = () => {
         <h6
           data-aos='fade-right'
           data-aos-duration='1000'
-          data-aos-offset='200'>
+          data-aos-offset='200'
+          data-aos-once='true'>
           Projects
         </h6>
         <h2
           data-aos='fade-right'
           data-aos-duration='1000'
-          data-aos-offset='200'>
+          data-aos-offset='200'
+          data-aos-once='true'>
           What I&#39;ve Built
         </h2>
 
@@ -37,7 +39,8 @@ const Projects = () => {
               <div
                 data-aos='fade-up'
                 data-aos-duration='1000'
-                data-aos-offset='200'>
+                data-aos-offset='200'
+                data-aos-once='true'>
                 <div className='flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 dark:shadow-gray-100 rounded-xl p-4 group hover:shadow-[#8c52ff] hover:scale-105 hover:bg-[#ecf0f3] hover:dark:bg-black ease-in duration-100'>
                   <Image
                     className='rounded-xl group-hover:opacity-10'

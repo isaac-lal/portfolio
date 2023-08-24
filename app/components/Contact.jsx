@@ -51,25 +51,29 @@ const Contact = () => {
         <h6
           data-aos='fade-right'
           data-aos-duration='1000'
-          data-aos-offset='200'>
+          data-aos-offset='200'
+          data-aos-once='true'>
           Contact
         </h6>
         <h2
           data-aos='fade-right'
           data-aos-duration='1000'
-          data-aos-offset='200'>
+          data-aos-offset='200'
+          data-aos-once='true'>
           Where I&#39;m Available
         </h2>
         <div
           data-aos='flip-left'
           data-aos-duration='1000'
-          data-aos-offset='200'>
+          data-aos-offset='200'
+          data-aos-once='true'>
           <div className='w-full h-auto shadow-xl shadow-gray-400 hover:scale-105 dark:shadow-gray-100 rounded-xl lg:p-4 hover:shadow-[#8c52ff] ease-in duration-100'>
             <div
               className='p-4'
               data-aos='fade-up'
               data-aos-duration='1000'
-              data-aos-offset='200'>
+              data-aos-offset='200'
+              data-aos-once='true'>
               <form
                 ref={form}
                 onSubmit={sendEmail}>
