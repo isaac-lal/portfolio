@@ -16,19 +16,22 @@ const About = () => {
       <div className='max-w-[1240px] m-auto'>
         <h6
           data-aos='fade-right'
-          data-aos-duration='1000'>
+          data-aos-duration='1000'
+          data-aos-offset='200'>
           About
         </h6>
         <h2
           data-aos='fade-right'
-          data-aos-duration='1000'>
+          data-aos-duration='1000'
+          data-aos-offset='200'>
           Who I Am
         </h2>
         <div className='flex lg:flex-row flex-col'>
           <p
             className='flex items-center justify-center my-5 sm:pr-8 text-sm sm:text-base'
             data-aos='fade-right'
-            data-aos-duration='1000'>
+            data-aos-duration='1000'
+            data-aos-offset='200'>
             I am a self-taught developer who is passionate about delivering
             functional applications that is aesthetically pleasing and seamless
             for the user. Eager to grow my knowledge, I have consistently been
@@ -50,7 +53,8 @@ const About = () => {
           </p>
           <div
             data-aos='fade-left'
-            data-aos-duration='1000'>
+            data-aos-duration='1000'
+            data-aos-offset='200'>
             <div className='w-auto h-auto m-auto shadow-xl shadow-gray-400 dark:shadow-gray-100 rounded-full flex items-center justify-center p-4 hover:scale-105 hover:shadow-[#8c52ff] hover:text-[#8c52ff] ease-in duration-300'>
               <Image
                 src={About_IMG}

@@ -35,6 +35,7 @@ const Navbar = () => {
     <header
       data-aos='fade-down'
       data-aos-duration='1500'
+      data-aos-offset='200'
       className={
         shadow
           ? 'fixed w-full h-20 shadow-xl bg-[#ecf0f3] dark:bg-black shadow-[#CCCCCC] dark:shadow-[#222222] z-[100]'

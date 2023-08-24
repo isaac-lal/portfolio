@@ -20,19 +20,22 @@ const Home = () => {
           <p
             className='tracking-widest text-gray-800 dark:text-gray-500 text-base sm:text-lg'
             data-aos='fade-down'
-            data-aos-duration='1000'>
+            data-aos-duration='1000'
+            data-aos-offset='200'>
             Welcome, my name is
           </p>
           <h1
             className='text-4xl sm:text-5xl py-1 sm:py-4 text-gray-700 dark:text-gray-400'
             data-aos='fade-down'
-            data-aos-duration='1000'>
+            data-aos-duration='1000'
+            data-aos-offset='200'>
             <span className='text-[#8c52ff]'>Isaac Lal</span>
           </h1>
           <h2
             className='py-4 justify-center flex text-base sm:text-lg text-gray-700 dark:text-gray-400'
             data-aos='fade-down'
-            data-aos-duration='1000'>
+            data-aos-duration='1000'
+            data-aos-offset='200'>
             <TypeAnimation
               sequence={[
                 'A Software Engineer',
@@ -63,7 +66,8 @@ const Home = () => {
           <p
             className='text-sm sm:text-base py-2 sm:py-4 pb-10 sm:pb-20 sm:max-w-[70%] m-auto'
             data-aos='fade-up'
-            data-aos-duration='1000'>
+            data-aos-duration='1000'
+            data-aos-offset='200'>
             This is my portfolio, showcasing all of my knowledge as a Software
             Engineer, with a primary focus on Full-Stack Web Development. Here
             you will find my skills in relevant technologies, my finest
@@ -72,13 +76,15 @@ const Home = () => {
           <p
             className='text-sm sm:text-base uppercase tracking-widest text-[#8c52ff]'
             data-aos='fade-up'
-            data-aos-duration='1000'>
+            data-aos-duration='1000'
+            data-aos-offset='200'>
             Let&#39;s Connect
           </p>
           <div
             className='text-base sm:text-lg flex items-center justify-between max-w-[330px] m-auto py-4'
             data-aos='fade-up'
-            data-aos-duration='1000'>
+            data-aos-duration='1000'
+            data-aos-offset='200'>
             {links.map((link) => (
               <Link
                 key={link.id}
