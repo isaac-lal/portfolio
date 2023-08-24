@@ -75,7 +75,7 @@ const Home = () => {
             This is my portfolio, showcasing all of my knowledge as a Software
             Engineer, with a primary focus on Full-Stack Web Development. Here
             you will find my skills in relevant technologies, my finest
-            projects, and a contact form to get in touch!
+            projects, and a contact form to get in touch. I hope you enjoy!
           </p>
           <p
             className='text-sm sm:text-base uppercase tracking-widest text-[#8c52ff]'

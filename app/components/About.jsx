@@ -62,11 +62,11 @@ const About = () => {
               data-aos-duration='1000'
               data-aos-offset='200'
               data-aos-once='true'>
-              With these skills that I have learned, I am able to create
-              functional products that perform well and looks great. I am
-              continuing to learn more every single day to improve my knowledge.
-              I hope that I can use my skills to make a product that can satisfy
-              you!{' '}
+              Having a growth mindset towards development has allowed me to
+              understand key concepts and translate them into a fully fledged
+              application. With these skills that I have learned, I am able to
+              create functional products that perform well and looks great. I am
+              continuing to learn more every single day to improve my knowledge.{' '}
             </p>
           </div>
           <div
