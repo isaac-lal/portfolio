@@ -38,9 +38,11 @@ const About = () => {
               data-aos-once='true'>
               I am a self-taught developer who is passionate about delivering
               functional applications that is aesthetically pleasing and
-              seamless for the user. Eager to grow my knowledge, I have
-              consistently been learning every day from many resources to
-              improve my skills.{' '}
+              seamless for the user. Interacting with websites from a young age,
+              I was very intrigued by the steps needed to build them. Aspects
+              like the design, the buttons, the load speed, and the features
+              really made me want to be a part of the process in developing
+              them.{' '}
             </p>
             <p
               className='my-5 sm:pr-8 text-sm sm:text-base'
@@ -48,13 +50,14 @@ const About = () => {
               data-aos-duration='1000'
               data-aos-offset='200'
               data-aos-once='true'>
-              Interacting with websites from a young age, I was very intrigued
-              by the steps needed to build them. I started off by following
-              tutorials on YouTube on how to build a simple landing page with
-              HTML and CSS. Afterwards, I wanted to implement functionality in
-              my website so I used JavaScript. When I was more advanced I then
-              got into the advanced concepts by using all the modern
-              technologies today.{' '}
+              My own journey started off by following tutorials on YouTube on
+              how to build really simple websites with basic HTML and CSS. Then,
+              I included some JavaScript to add animations and functionality.
+              Once I mastered the basics, I entered the world of full-stack web
+              development, utilizing knowledge of various frameworks, libraries,
+              databases, and services. These skills have allowed me to configure
+              both the front-end and back-end of an application to serve a
+              smooth and consistent development process.{' '}
             </p>
             <p
               className='my-5 sm:pr-8 text-sm sm:text-base'
@@ -62,11 +65,14 @@ const About = () => {
               data-aos-duration='1000'
               data-aos-offset='200'
               data-aos-once='true'>
-              Having a growth mindset towards development has allowed me to
-              understand key concepts and translate them into a fully fledged
-              application. With these skills that I have learned, I am able to
-              create functional products that perform well and looks great. I am
-              continuing to learn more every single day to improve my knowledge.{' '}
+              Eager to grow my knowledge, I have consistently been learning
+              every day from many resources to improve my skills. Having a
+              growth mindset towards development has allowed me to understand
+              key concepts and translate them into a fully fledged application.
+              With these skills that I have learned, I am able to create
+              functional products that perform well and looks great. I am super
+              excited to continue learning more every single day to expand my
+              knowledge and provide the best experience to my users.{' '}
             </p>
           </div>
           <div
