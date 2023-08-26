@@ -13,7 +13,7 @@ const Skills = () => {
   return (
     <section
       id='skills'
-      className='w-full mt-16 px-2 sm:px-16 md:px-28 lg:px-40'>
+      className='w-full mt-32 px-6 sm:px-16 md:px-28'>
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
         <h6
           data-aos='fade-right'

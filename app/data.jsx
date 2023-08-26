@@ -38,38 +38,38 @@ export const skills = [
   },
   {
     id: 5,
-    name: 'Tailwind CSS',
-    img: TailwindCSS_IMG,
-  },
-  {
-    id: 6,
-    name: 'Next.js',
-    img: Nextjs_IMG,
-  },
-  {
-    id: 7,
-    name: 'PostgreSQL',
-    img: PostgreSQL_IMG,
-  },
-  {
-    id: 8,
-    name: 'MongoDB',
-    img: MongoDB_IMG,
-  },
-  {
-    id: 9,
     name: 'Vite',
     img: Vite_IMG,
   },
   {
+    id: 6,
+    name: 'TailwindCSS',
+    img: TailwindCSS_IMG,
+  },
+  {
+    id: 7,
+    name: 'Next.js',
+    img: Nextjs_IMG,
+  },
+  {
+    id: 8,
+    name: 'PostgreSQL',
+    img: PostgreSQL_IMG,
+  },
+  {
+    id: 9,
+    name: 'MongoDB',
+    img: MongoDB_IMG,
+  },
+  {
     id: 10,
-    name: 'Express',
-    img: Express_IMG,
+    name: 'Node.js',
+    img: Nodejs_IMG,
   },
   {
     id: 11,
-    name: 'Node.js',
-    img: Nodejs_IMG,
+    name: 'Express',
+    img: Express_IMG,
   },
   {
     id: 12,

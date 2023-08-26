@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <section
       id='home'
-      className='w-full h-screen text-center'>
+      className='overflow-auto px-6 w-full h-screen text-center'>
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
           <p
@@ -35,9 +35,9 @@ const Home = () => {
           </h1>
           <h2
             className='py-4 justify-center flex text-base sm:text-lg text-gray-700 dark:text-gray-400'
-            data-aos='fade-down'
+            data-aos='zoom-out'
             data-aos-duration='1000'
-            data-aos-delay='2500'
+            data-aos-delay='3000'
             data-aos-once='true'>
             <TypeAnimation
               sequence={[
@@ -68,9 +68,9 @@ const Home = () => {
           </h2>
           <p
             className='text-sm sm:text-base py-2 sm:py-4 pb-10 sm:pb-20 sm:max-w-[70%] m-auto'
-            data-aos='fade-up'
+            data-aos='zoom-out'
             data-aos-duration='1000'
-            data-aos-delay='2500'
+            data-aos-delay='3000'
             data-aos-once='true'>
             This is my portfolio, showcasing all of my knowledge as a Software
             Engineer, with a primary focus on Full-Stack Web Development. Here
@@ -79,7 +79,7 @@ const Home = () => {
           </p>
           <p
             className='text-sm sm:text-base uppercase tracking-widest text-[#8c52ff]'
-            data-aos='fade-up'
+            data-aos='zoom-out'
             data-aos-duration='1000'
             data-aos-delay='3000'
             data-aos-once='true'>
@@ -87,7 +87,7 @@ const Home = () => {
           </p>
           <div
             className='text-base sm:text-lg flex items-center justify-between max-w-[330px] m-auto py-4'
-            data-aos='fade-up'
+            data-aos='zoom-out'
             data-aos-duration='1000'
             data-aos-delay='3000'
             data-aos-once='true'>

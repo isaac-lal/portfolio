@@ -12,8 +12,8 @@ const About = () => {
   return (
     <section
       id='about'
-      className='px-2 sm:px-16 md:px-28 lg:px-40 flex items-center'>
-      <div className='max-w-[1240px] m-auto'>
+      className='w-full px-6 sm:px-16 md:px-28'>
+      <div className='max-w-[1240px] mx-auto h-full'>
         <h6
           data-aos='fade-right'
           data-aos-duration='1000'
@@ -49,12 +49,12 @@ const About = () => {
               data-aos-offset='200'
               data-aos-once='true'>
               Interacting with websites from a young age, I was very intrigued
-              by the steps needed to build them. I started off with HTML and
-              CSS, including a little JavaScript. Then, I focused on React and
-              mastered JavaScript as my primary skills along with frameworks
-              like Next.js and TailwindCSS. Finally, I learned back-end
-              technologies such as MongoDB, Express, and Node.js to create a
-              full-stack product.{' '}
+              by the steps needed to build them. I started off by following
+              tutorials on YouTube on how to build a simple landing page with
+              HTML and CSS. Afterwards, I wanted to implement functionality in
+              my website so I used JavaScript. When I was more advanced I then
+              got into the advanced concepts by using all the modern
+              technologies today.{' '}
             </p>
             <p
               className='my-5 sm:pr-8 text-sm sm:text-base'

@@ -34,8 +34,8 @@ const Navbar = () => {
   return (
     <header
       data-aos='fade-down'
-      data-aos-duration='1500'
-      data-aos-offset='200'
+      data-aos-duration='1000'
+      data-aos-delay='3000'
       data-aos-once='true'
       className={
         shadow
@@ -85,7 +85,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] dark:bg-[#000000] p-10 ease-in duration-500'
+              ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] h-screen bg-[#ecf0f3] dark:bg-[#000000] p-10 ease-in duration-500'
               : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
           }>
           <div>
@@ -107,11 +107,6 @@ const Navbar = () => {
                 <AiOutlineClose />
               </div>
             </div>
-            <div className='border-b-4 border-gray-300 dark:border-gray-500 my-4'>
-              <p className='text-sm sm:text-base w-[85%] md:w-[90%] py-4'>
-                Welcome to my website!
-              </p>
-            </div>
           </div>
           <div className='py-4'>
             <ul className='uppercase'>
@@ -120,21 +115,21 @@ const Navbar = () => {
                   key={nav.id}
                   href={nav.url}
                   passHref>
-                  <div className='flex items-center justify-center'>
+                  <div className='flex items-center justify-center py-2'>
                     <li
                       onClick={() => setNav(false)}
-                      className='py-2 sm:py-4 text-sm uppercase hover:border-b-2 transition-0.3 border-[#8c52ff] hover:text-[#8c52ff] ease-in duration-100'>
+                      className='text-sm uppercase hover:border-b-2 transition-0.3 border-[#8c52ff] hover:text-[#8c52ff] ease-in duration-100'>
                       {nav.name}
                     </li>
                   </div>
                 </Link>
               ))}
             </ul>
-            <div className='pt-10 sm:pt-40'>
+            <div className='pt-10'>
               <p className='text-sm flex justify-center items-center sm:text-base uppercase tracking-widest text-[#8c52ff]'>
                 Let&#39;s Connect
               </p>
-              <div className='text-base sm:text-lg flex items-center justify-between my-4 w-full sm:w-[80%]'>
+              <div className='text-base sm:text-lg flex items-center justify-between my-4 w-full'>
                 {links.map((link) => (
                   <Link
                     key={link.id}

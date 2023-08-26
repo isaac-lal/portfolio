@@ -46,8 +46,8 @@ const Contact = () => {
   return (
     <section
       id='contact'
-      className='w-full mt-16 px-2 sm:px-16 md:px-28 lg:px-40'>
-      <div className='max-w-[1240px] m-auto px-2'>
+      className='w-full mt-32 px-6 sm:px-16 md:px-28'>
+      <div className='max-w-[1240px] mx-auto'>
         <h6
           data-aos='fade-right'
           data-aos-duration='1000'
@@ -67,7 +67,7 @@ const Contact = () => {
           data-aos-duration='1000'
           data-aos-offset='200'
           data-aos-once='true'>
-          <div className='w-full h-auto shadow-xl shadow-gray-400 hover:scale-105 dark:shadow-gray-100 rounded-xl lg:p-4 hover:shadow-[#8c52ff] ease-in duration-100'>
+          <div className='w-full h-auto shadow-lg shadow-gray-400 hover:scale-105 dark:shadow-gray-100 rounded-xl lg:p-4 hover:shadow-[#8c52ff] ease-in duration-100'>
             <div
               className='p-4'
               data-aos='fade-up'

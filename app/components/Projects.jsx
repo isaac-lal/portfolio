@@ -16,8 +16,8 @@ const Projects = () => {
   return (
     <section
       id='projects'
-      className='w-full mt-16 px-2 sm:px-16 md:px-28 lg:px-40 flex items-center'>
-      <div className='max-w-[1240px] mx-auto px-2 py-16'>
+      className='w-full mt-32 px-6 sm:px-16 md:px-28'>
+      <div className='max-w-[1240px] mx-auto h-full'>
         <h6
           data-aos='fade-right'
           data-aos-duration='1000'
@@ -41,7 +41,7 @@ const Projects = () => {
                 data-aos-duration='1000'
                 data-aos-offset='200'
                 data-aos-once='true'>
-                <div className='flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 dark:shadow-gray-100 rounded-xl p-4 group hover:shadow-[#8c52ff] hover:scale-105 hover:bg-[#ecf0f3] hover:dark:bg-black ease-in duration-100'>
+                <div className='flex items-center justify-center h-auto w-full shadow-lg shadow-gray-400 dark:shadow-gray-100 rounded-xl p-4 group hover:shadow-[#8c52ff] hover:scale-105 hover:bg-[#ecf0f3] hover:dark:bg-black ease-in duration-100'>
                   <Image
                     className='rounded-xl group-hover:opacity-10'
                     src={project.img}
@@ -67,7 +67,7 @@ const Projects = () => {
                               </p>
                               <div className='pl-2'>
                                 {' '}
-                                <FiExternalLink size={20} />
+                                <FiExternalLink size={17} />
                               </div>
                             </div>
                           </Link>

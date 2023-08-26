@@ -7,6 +7,7 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 import About from './components/About';
 import Footer from './components/Footer';
+import './globals.css';
 
 export default function Home() {
   return (

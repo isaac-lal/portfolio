@@ -45,7 +45,12 @@ body {
   input {
     @apply dark:bg-[#121212] border-2 border-gray-300 dark:border-[#313131] rounded-lg p-3 flex;
   }
+
   button {
     @apply shadow-xl rounded-xl bg-[#CDCDCD] dark:bg-[#434343] uppercase text-white;
+  }
+
+  section {
+    scroll-margin-top: 100px;
   }
 }
