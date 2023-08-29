@@ -43,7 +43,7 @@ const Home = () => {
               sequence={[
                 'A Software Engineer',
                 3500,
-                'A Web Developer',
+                'A Web Designer',
                 3500,
                 'A Full-Stack Developer',
                 3500,
