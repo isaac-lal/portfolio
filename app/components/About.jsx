@@ -37,10 +37,10 @@ const About = () => {
               data-aos-offset='200'
               data-aos-once='true'>
               I am a self-taught developer who loves creating functional
-              applications that are pleasing to look at and easy to use. I&#39;ve
-              been using websites since I was young, relying on them for
-              entertainment and information every day. The web has changed my
-              personal life a lot and got me curious about the steps to build
+              applications that are pleasing to look at and easy to use.
+              I&#39;ve been using websites since I was young, relying on them
+              for entertainment and information every day. The web has changed
+              my personal life a lot and got me curious about the steps to build
               websites. Things like design, efficiency, and features, and how
               they work together, made me really want to learn how to make them
               myself. This led me to want to join the process of making web
@@ -59,9 +59,8 @@ const About = () => {
               numerous small projects and a couple of larger websites before
               advancing. After mastering the basics, I dove into frameworks,
               libraries, databases, and services. This allowed me to explore
-              Full-Stack Web Development deeply. I learned the MERN stack -
-              MongoDB, Express, React, and Node.js. These skills enabled me to
-              set up both the front-end and back-end of applications, ensuring a
+              Full-Stack Web Development deeply. These skills enabled me to set
+              up both the front-end and back-end of applications, ensuring a
               seamless and steady development process.{' '}
             </p>
             <p
@@ -76,10 +75,10 @@ const About = () => {
               involves makes me want to learn even more. Adopting a growth
               mindset toward development has enabled me to understand key
               concepts and turn them into complete applications. With these
-              acquired skills, I&#39;m able to create functional products that work
-              well and look impressive. I&#39;m very excited to keep learning more
-              each day, to increase my knowledge and provide the best experience
-              to my users.{' '}
+              acquired skills, I&#39;m able to create functional products that
+              work well and look impressive. I&#39;m very excited to keep
+              learning more each day, to increase my knowledge and provide the
+              best experience to my users.{' '}
             </p>
           </div>
           <div
