@@ -72,10 +72,11 @@ const Home = () => {
             data-aos-duration='1000'
             data-aos-delay='3000'
             data-aos-once='true'>
-            This is my portfolio, showcasing all of my knowledge as a Software
-            Engineer, with a primary focus on Full-Stack Web Development. Here
-            you will find my skills in relevant technologies, my finest
-            projects, and a contact form to get in touch. I hope you enjoy!
+            Here is my portfolio, displaying all of my expertise as a Software
+            Engineer, primarily focusing on Full-Stack Web Development. Here,
+            you'll discover my skills in relevant technologies, my best
+            projects, and a contact form for getting in touch with me. I hope
+            you will enjoy!
           </p>
           <p
             className='text-sm sm:text-base uppercase tracking-widest text-[#8c52ff]'
@@ -91,7 +92,7 @@ const Home = () => {
             data-aos-duration='1000'
             data-aos-delay='3000'
             data-aos-once='true'>
-            {links.map((link) => (
+            {links.map(link => (
               <Link
                 key={link.id}
                 href={link.name}
