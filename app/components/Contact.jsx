@@ -16,7 +16,7 @@ const Contact = () => {
 
   const form = useRef();
 
-  const sendEmail = (e) => {
+  const sendEmail = e => {
     e.preventDefault();
 
     emailjs
@@ -27,14 +27,14 @@ const Contact = () => {
         process.env.NEXT_PUBLIC_PUBLIC_KEY
       )
       .then(
-        (result) => {
+        result => {
           console.log(result.text);
           alert(
             '"Thank you for sending your message! I\'ll contact you shortly! :)" -Isaac Lal'
           );
           e.target.reset();
         },
-        (error) => {
+        error => {
           console.log(error.text);
           alert(
             '"There was an error sending your message. If it continues, send me an email at: isaaclal124@gmail.com :)" -Isaac Lal'
@@ -85,6 +85,7 @@ const Contact = () => {
                     <input
                       type='text'
                       name='user_name'
+                      required
                     />
                   </div>
                   <div className='flex flex-col py-2'>
@@ -94,6 +95,7 @@ const Contact = () => {
                     <input
                       type='tel'
                       name='user_number'
+                      required
                     />
                   </div>
                 </div>
@@ -104,6 +106,7 @@ const Contact = () => {
                   <input
                     type='email'
                     name='user_email'
+                    required
                   />
                 </div>
                 <div className='flex flex-col py-2'>
@@ -113,6 +116,7 @@ const Contact = () => {
                   <input
                     type='text'
                     name='subject'
+                    required
                   />
                 </div>
                 <div className='flex flex-col py-2'>
@@ -122,7 +126,8 @@ const Contact = () => {
                   <textarea
                     className='dark:bg-[#121212] border-2 border-gray-300 dark:border-[#313131] rounded-lg p-3 flex'
                     rows='16'
-                    name='message'></textarea>
+                    name='message'
+                    required></textarea>
                 </div>
                 <button className='cursor-pointer hover:scale-105 w-full p-4 text-black dark:text-gray-100 mt-4 hover:bg-[#8c52ff] ease-in duration-200'>
                   Send Message
