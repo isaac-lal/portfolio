@@ -74,7 +74,7 @@ const Home = () => {
             data-aos-once='true'>
             Here is my portfolio, displaying all of my expertise as a Software
             Engineer, primarily focusing on Full-Stack Web Development. Here,
-            you'll discover my skills in relevant technologies, my best
+            you&#39;ll discover my skills in relevant technologies, my best
             projects, and a contact form for getting in touch with me. I hope
             you will enjoy!
           </p>
