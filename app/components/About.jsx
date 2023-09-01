@@ -1,3 +1,4 @@
+'use client';
 import React, { useEffect } from 'react';
 import About_IMG from '../../public/assets/about.png';
 import Image from 'next/image';

@@ -34,7 +34,7 @@ const Projects = () => {
         </h2>
 
         <div className='grid lg:grid-cols-2 gap-8'>
-          {projects.map((project) => (
+          {projects.map(project => (
             <div key={project.id}>
               <div
                 data-aos='fade-up'
