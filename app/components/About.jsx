@@ -37,7 +37,7 @@ const About = () => {
               data-aos-duration='1000'
               data-aos-offset='200'
               data-aos-once='true'>
-              I am a self-taught developer who loves creating functional
+              I'm a Full-Stack Web Developer who loves creating functional
               applications that are pleasing to look at and easy to use.
               I&#39;ve been using websites since I was young, relying on them
               for entertainment and information every day. The web has changed
@@ -76,7 +76,7 @@ const About = () => {
               involves makes me want to learn even more. Adopting a growth
               mindset toward development has enabled me to understand key
               concepts and turn them into complete applications. With these
-              acquired skills, I&#39;m able to create functional products that
+              acquired skills, I&#39;m able to create functional software that
               work well and look impressive. I&#39;m very excited to keep
               learning more each day, to increase my knowledge and provide the
               best experience to my users.{' '}
