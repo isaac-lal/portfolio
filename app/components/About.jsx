@@ -37,7 +37,7 @@ const About = () => {
               data-aos-duration='1000'
               data-aos-offset='200'
               data-aos-once='true'>
-              I'm a Full-Stack Web Developer who loves creating functional
+              I&#39;m a Full-Stack Web Developer who loves creating functional
               applications that are pleasing to look at and easy to use.
               I&#39;ve been using websites since I was young, relying on them
               for entertainment and information every day. The web has changed
