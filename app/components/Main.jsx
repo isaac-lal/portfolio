@@ -41,15 +41,15 @@ const Home = () => {
             data-aos-once='true'>
             <TypeAnimation
               sequence={[
-                'A Full-Stack Web Developer',
+                'A Web Developer',
+                3500,
+                'A Front-End Developer',
+                3500,
+                'A Back-End Developer',
+                3500,
+                'A Full-Stack Developer',
                 3500,
                 'A Software Engineer',
-                3500,
-                'A Web Designer',
-                3500,
-                'A Coder',
-                3500,
-                'A Programmer',
                 3500,
                 'A Passionate Learner',
                 3500,
