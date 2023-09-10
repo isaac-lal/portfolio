@@ -37,16 +37,16 @@ const About = () => {
               data-aos-duration='1000'
               data-aos-offset='200'
               data-aos-once='true'>
-              I&#39;m a Full-Stack Web Developer who loves creating functional
-              applications that are pleasing to look at and easy to use.
-              I&#39;ve been using websites since I was young, relying on them
-              for entertainment and information every day. The web has changed
-              my personal life a lot and got me curious about the steps to build
-              websites. Things like design, efficiency, and features, and how
-              they work together, made me really want to learn how to make them
-              myself. This led me to want to join the process of making web
-              applications so that other people can feel the same happiness I
-              have felt.{' '}
+              I&#39;m a Web Developer, specializing in full-stack, who loves
+              creating functional applications that are pleasing to look at and
+              easy to use. I&#39;ve been using websites since I was young,
+              relying on them for entertainment and information every day. The
+              web has changed my personal life a lot and got me curious about
+              the steps to build websites. Things like design, efficiency, and
+              features, and how they work together, made me really want to learn
+              how to make them myself. This led me to want to join the process
+              of making web applications so that other people can feel the same
+              happiness I have felt.{' '}
             </p>
             <p
               className='my-5 sm:pr-8 text-sm sm:text-base'

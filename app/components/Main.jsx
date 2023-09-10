@@ -72,10 +72,10 @@ const Home = () => {
             data-aos-duration='1000'
             data-aos-delay='3000'
             data-aos-once='true'>
-            Here is my portfolio, displaying all of my expertise as a Full-Stack
-            Web Developer. This is where you&#39;ll discover my skills in
-            relevant technologies, my best projects, and a contact form for
-            getting in touch with me. I hope you will enjoy!
+            Here is my portfolio, displaying all of my expertise as a Web
+            Developer with full-stack experience. This is where you&#39;ll
+            discover my skills in relevant technologies, my best projects, and a
+            contact form for getting in touch with me. I hope you will enjoy!
           </p>
           <p
             className='text-sm sm:text-base uppercase tracking-widest text-[#8c52ff]'
