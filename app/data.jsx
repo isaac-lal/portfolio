@@ -11,6 +11,10 @@ import Nodejs_IMG from '../public/assets/skills/node.png';
 import Vite_IMG from '../public/assets/skills/vite.png';
 import TypeScript_IMG from '../public/assets/skills/typescript.png';
 import ComingSoon_IMG from '../public/assets/projects/coming-soon.jpg';
+import TodoList_IMG from '../public/assets/projects/todo-list.png';
+import WeatherApp_IMG from '../public/assets/projects/weather-app.png';
+import EntertainmentSearch_IMG from '../public/assets/projects/entertainment-search.png';
+import Calculator_IMG from '../public/assets/projects/calculator.png';
 import { AiOutlineMail } from 'react-icons/ai';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { BsFillPersonFill } from 'react-icons/bs';
@@ -81,38 +85,42 @@ export const skills = [
 export const projects = [
   {
     id: 1,
-    name: 'Coming Soon',
-    img: ComingSoon_IMG,
-    codeURL: 'https://github.com/isaac-lal',
-    demoURL: 'https://www.isaaclal.com/',
-    description: 'This is a project that is coming soon!',
+    name: 'Todo List',
+    img: TodoList_IMG,
+    codeURL: 'https://github.com/isaac-lal/local-todo-list',
+    demoURL: 'https://local-todo-list.isaaclal.com/',
+    description:
+      'This is a todo list that runs locally on the website and tracks tasks with CRUD functionality.',
     technologies: 'React',
   },
   {
     id: 2,
-    name: 'Coming Soon',
-    img: ComingSoon_IMG,
-    codeURL: 'https://github.com/isaac-lal',
-    demoURL: 'https://www.isaaclal.com/',
-    description: 'This is a project that is coming soon!',
+    name: 'Weather App',
+    img: WeatherApp_IMG,
+    codeURL: 'https://github.com/isaac-lal/minimal-weather-app',
+    demoURL: 'https://minimal-weather-app.isaaclal.com/',
+    description:
+      'This is a minimal weather app that tracks temperature, min, max, feels like, humidity, pressure, and wind speed.',
     technologies: 'React',
   },
   {
     id: 3,
-    name: 'Coming Soon',
-    img: ComingSoon_IMG,
-    codeURL: 'https://github.com/isaac-lal',
-    demoURL: 'https://www.isaaclal.com/',
-    description: 'This is a project that is coming soon!',
+    name: 'Entertainment Search',
+    img: EntertainmentSearch_IMG,
+    codeURL: 'https://github.com/isaac-lal/simple-entertainment-search',
+    demoURL: 'https://simple-entertainment-search.isaaclal.com/',
+    description:
+      'This is an entertainment search app that uses the OMDB API to search up movies, tv shows, and games.',
     technologies: 'React',
   },
   {
     id: 4,
-    name: 'Coming Soon',
-    img: ComingSoon_IMG,
-    codeURL: 'https://github.com/isaac-lal',
-    demoURL: 'https://www.isaaclal.com/',
-    description: 'This is a project that is coming soon!',
+    name: 'Calculator',
+    img: Calculator_IMG,
+    codeURL: 'https://github.com/isaac-lal/calculator',
+    demoURL: 'https://calculator.isaaclal.com/',
+    description:
+      'This is a calculator application that can be used to add, subtract, multiply, and divide recurring numbers.',
     technologies: 'React',
   },
 ];
