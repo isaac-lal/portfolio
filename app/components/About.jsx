@@ -32,7 +32,7 @@ const About = () => {
         <div className='flex items-center justify-center lg:flex-row flex-col'>
           <div>
             <p
-              className='my-5 sm:pr-8 text-sm sm:text-base'
+              className='my-5 sm:pr-8 text-base sm:text-lg'
               data-aos='fade-right'
               data-aos-duration='1000'
               data-aos-offset='200'
@@ -49,7 +49,7 @@ const About = () => {
               happiness I have felt.{' '}
             </p>
             <p
-              className='my-5 sm:pr-8 text-sm sm:text-base'
+              className='my-5 sm:pr-8 text-base sm:text-lg'
               data-aos='fade-right'
               data-aos-duration='1000'
               data-aos-offset='200'
@@ -65,7 +65,7 @@ const About = () => {
               seamless and steady development process.{' '}
             </p>
             <p
-              className='my-5 sm:pr-8 text-sm sm:text-base'
+              className='my-5 sm:pr-8 text-base sm:text-lg'
               data-aos='fade-right'
               data-aos-duration='1000'
               data-aos-offset='200'

@@ -29,7 +29,7 @@ const Skills = () => {
           data-aos-once='true'>
           What I Can Do
         </h2>
-        <div className='text-xs sm:text-sm grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-4'>
+        <div className='text-xs sm:text-base grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-4'>
           {skills.map(skill => (
             <div key={skill.id}>
               <div
@@ -42,7 +42,7 @@ const Skills = () => {
                     <div className='m-auto cursor-pointer'>
                       <Image
                         src={skill.img}
-                        width='64'
+                        width={64}
                         alt='HTML'
                         data-aos='fade-up'
                         data-aos-duration='1500'
