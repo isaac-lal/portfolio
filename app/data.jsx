@@ -55,11 +55,13 @@ export const skills = [
     name: 'Next.js',
     img: Nextjs_IMG,
   },
+  /*
   {
     id: 8,
     name: 'PostgreSQL',
     img: PostgreSQL_IMG,
   },
+  */
   {
     id: 9,
     name: 'MongoDB',
@@ -75,11 +77,13 @@ export const skills = [
     name: 'Express',
     img: Express_IMG,
   },
+  /*
   {
     id: 12,
     name: 'TypeScript',
     img: TypeScript_IMG,
   },
+  */
 ];
 
 export const projects = [
