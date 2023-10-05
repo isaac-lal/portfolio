@@ -61,7 +61,7 @@ const Navbar = () => {
                 key={nav.id}
                 href={nav.url}
                 passHref>
-                <li className='ml-10 text-base uppercase hover:border-b-2 transition-all border-[#8c52ff] hover:text-[#8c52ff] ease-in duration-100'>
+                <li className='ml-10 text-base uppercase hover:border-b-2 transition-all border-[#1BA8F0] hover:text-[#1BA8F0] ease-in duration-100'>
                   {nav.name}
                 </li>
               </Link>
@@ -103,7 +103,7 @@ const Navbar = () => {
               </Link>
               <div
                 onClick={handleNav}
-                className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-100 p-3 cursor-pointer hover:shadow-[#8c52ff] hover:text-[#8c52ff] ease-in duration-100'>
+                className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-100 p-3 cursor-pointer hover:shadow-[#1BA8F0] hover:text-[#1BA8F0] ease-in duration-100'>
                 <AiOutlineClose />
               </div>
             </div>
@@ -118,7 +118,7 @@ const Navbar = () => {
                   <div className='flex items-center justify-center py-2'>
                     <li
                       onClick={() => setNav(false)}
-                      className='text-base uppercase hover:border-b-2 transition-0.3 border-[#8c52ff] hover:text-[#8c52ff] ease-in duration-100'>
+                      className='text-base uppercase hover:border-b-2 transition-0.3 border-[#1BA8F0] hover:text-[#1BA8F0] ease-in duration-100'>
                       {nav.name}
                     </li>
                   </div>
@@ -126,10 +126,10 @@ const Navbar = () => {
               ))}
             </ul>
             <div className='pt-10'>
-              <p className='text-base flex justify-center items-center sm:text-base uppercase tracking-widest text-[#8c52ff]'>
+              <p className='text-base flex justify-center items-center sm:text-base uppercase tracking-widest text-[#1BA8F0]'>
                 Let&#39;s Connect
               </p>
-              <div className='text-lg sm:text-lg flex items-center justify-between my-4 w-full'>
+              <div className='text-lg sm:text-lg flex items-center justify-center my-4 w-full'>
                 {links.map(link => (
                   <Link
                     key={link.id}
@@ -137,8 +137,10 @@ const Navbar = () => {
                     target='_blank'
                     rel='noreferrer'
                     passHref>
-                    <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-100 p-3 cursor-pointer hover:scale-110 hover:shadow-[#8c52ff] hover:text-[#8c52ff] ease-in duration-300'>
-                      {link.icon}
+                    <div className='px-2'>
+                      <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-100 p-3 cursor-pointer hover:scale-110 hover:shadow-[#1BA8F0] hover:text-[#1BA8F0] ease-in duration-300'>
+                        {link.icon}
+                      </div>
                     </div>
                   </Link>
                 ))}

@@ -31,7 +31,7 @@ const Home = () => {
             data-aos-duration='1000'
             data-aos-delay='1500'
             data-aos-once='true'>
-            <span className='text-[#8c52ff]'>Isaac Lal</span>
+            <span className='text-[#1BA8F0]'>Isaac Lal</span>
           </h1>
           <h2
             className='py-4 justify-center flex text-lg sm:text-xl text-gray-700 dark:text-gray-400'
@@ -78,7 +78,7 @@ const Home = () => {
             contact form for getting in touch with me. I hope you will enjoy!
           </p>
           <p
-            className='text-base sm:text-lg uppercase tracking-widest text-[#8c52ff]'
+            className='text-base sm:text-lg uppercase tracking-widest text-[#1BA8F0]'
             data-aos='zoom-out'
             data-aos-duration='1000'
             data-aos-delay='3000'
@@ -98,7 +98,7 @@ const Home = () => {
                 target='_blank'
                 rel='noreferrer'
                 passHref>
-                <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-100 p-6 cursor-pointer hover:scale-110 hover:shadow-[#8c52ff] hover:text-[#8c52ff] ease-in duration-300'>
+                <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-100 p-6 cursor-pointer hover:scale-110 hover:shadow-[#1BA8F0] hover:text-[#1BA8F0] ease-in duration-300'>
                   {link.icon}
                 </div>
               </Link>
