@@ -88,7 +88,7 @@ const About = () => {
             data-aos-duration='1000'
             data-aos-offset='200'
             data-aos-once='true'>
-            <div className='w-auto h-auto m-auto shadow-xl shadow-gray-400 dark:shadow-gray-100 rounded-full flex items-center justify-center p-4 hover:scale-105 hover:shadow-[#1BA8F0] hover:text-[#1BA8F0] ease-in duration-300'>
+            <div className='w-auto h-auto m-auto shadow-xl shadow-gray-400 dark:shadow-gray-100 rounded-full flex items-center justify-center p-4 hover:scale-105 hover:shadow-blue-500 hover:text-blue-500 ease-in duration-300'>
               <Image
                 src={About_IMG}
                 className='rounded-full'

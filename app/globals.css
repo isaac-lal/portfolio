@@ -33,7 +33,7 @@ html {
   }
 
   h6 {
-    @apply text-[#1BA8F0] text-base sm:text-xl uppercase tracking-widest;
+    @apply text-blue-500 text-base sm:text-xl uppercase tracking-widest;
   }
 
   li {
