@@ -37,16 +37,16 @@ const About = () => {
               data-aos-duration='1000'
               data-aos-offset='200'
               data-aos-once='true'>
-              I&#39;m a Web Developer, specializing in full-stack, who loves
+              I&#39;m a Web Developer, specializing in front-end, who loves
               creating functional applications that are pleasing to look at and
               easy to use. I&#39;ve been using websites since I was young,
               relying on them for entertainment and information every day. The
-              web has changed my personal life a lot and got me curious about
-              the steps to build websites. Things like design, efficiency, and
-              features, and how they work together, made me really want to learn
-              how to make them myself. This led me to want to join the process
-              of making web applications so that other people can feel the same
-              happiness I have felt.{' '}
+              web has changed my personal life and improved it in so many ways.
+              Due to that, it got me curious about the steps needed to build
+              websites. Details like design, features, and ease of use made me
+              really want to learn how to make websites myself. This led me to
+              want to look into the process of making web applications that
+              other people can use.{' '}
             </p>
             <p
               className='my-5 sm:pr-8 text-base sm:text-lg'
@@ -56,12 +56,14 @@ const About = () => {
               data-aos-once='true'>
               My journey began by following tutorials on YouTube to create
               simple websites using basic HTML and CSS. Later, I added
-              JavaScript for functionality and custom animations. I made
-              numerous small projects and a couple of larger websites before
-              advancing. After mastering the basics, I dove into frameworks,
-              libraries, databases, and services. This allowed me to explore
-              Full-Stack Web Development deeply. These skills enabled me to set
-              up both the front-end and back-end of applications, ensuring a
+              JavaScript for functionality and dynamic design. I made numerous
+              small projects with these vanilla technologies before advancing
+              into my journey. After mastering the basics, I dove into React
+              using the Vite build tool. I spent a lot of time on React before
+              getting really good and learned how to use Git version control to
+              keep track of my work. Afterwards, I utilized Next.js as a
+              superset of React and improved styling efficiency with
+              TailwindCSS. These skills enabled me to set up and ensure a
               seamless and steady development process.{' '}
             </p>
             <p
@@ -70,16 +72,14 @@ const About = () => {
               data-aos-duration='1000'
               data-aos-offset='200'
               data-aos-once='true'>
-              Eager to expand my knowledge, I&#39;ve consistently been learning
-              every day from various resources to improve my skills. Going from
-              knowing nothing about the web to having a solid concept of what it
-              involves makes me want to learn even more. Adopting a growth
-              mindset toward development has enabled me to understand key
+              Going from knowing nothing about the web to having a solid concept
+              of what it involves makes me want to learn even more. Adopting a
+              growth mindset toward development has enabled me to understand key
               concepts and turn them into complete applications. With these
-              acquired skills, I&#39;m able to create functional software that
-              work well and look impressive. I&#39;m very excited to keep
-              learning more each day, to increase my knowledge and provide the
-              best experience to my users.{' '}
+              acquired skills as my stack, I&#39;m able to create functional
+              software that work well and look impressive. I&#39;m very excited
+              to keep learning more each day, to increase my knowledge and
+              provide the best experience to my users.{' '}
             </p>
           </div>
           <div
