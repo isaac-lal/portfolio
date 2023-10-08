@@ -9,6 +9,7 @@ import Express_IMG from '../public/assets/skills/express.png';
 import Nextjs_IMG from '../public/assets/skills/next.png';
 import Nodejs_IMG from '../public/assets/skills/node.png';
 import Vite_IMG from '../public/assets/skills/vite.png';
+import Git_IMG from '../public/assets/skills/git.png';
 import TypeScript_IMG from '../public/assets/skills/typescript.png';
 import ComingSoon_IMG from '../public/assets/projects/coming-soon.jpg';
 import TodoList_IMG from '../public/assets/projects/todo-list.png';
@@ -47,13 +48,18 @@ export const skills = [
   },
   {
     id: 6,
+    name: 'Next.js',
+    img: Nextjs_IMG,
+  },
+  {
+    id: 7,
     name: 'TailwindCSS',
     img: TailwindCSS_IMG,
   },
   {
-    id: 7,
-    name: 'Next.js',
-    img: Nextjs_IMG,
+    id: 8,
+    name: 'Git',
+    img: Git_IMG,
   },
   /*
   {
@@ -62,21 +68,27 @@ export const skills = [
     img: PostgreSQL_IMG,
   },
   */
+  /*
   {
     id: 9,
     name: 'MongoDB',
     img: MongoDB_IMG,
   },
+  */
+  /*
   {
     id: 10,
     name: 'Node.js',
     img: Nodejs_IMG,
   },
+  */
+  /*
   {
     id: 11,
     name: 'Express',
     img: Express_IMG,
   },
+  */
   /*
   {
     id: 12,
