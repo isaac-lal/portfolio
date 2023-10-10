@@ -37,7 +37,7 @@ const About = () => {
               data-aos-duration='1000'
               data-aos-offset='200'
               data-aos-once='true'>
-              I&#39;m a Web Developer, specializing in front-end, who loves
+              I&#39;m a Web Developer, specializing in full-stack, who loves
               creating functional applications that are pleasing to look at and
               easy to use. I&#39;ve been using websites since I was young,
               relying on them for entertainment and information every day. The
@@ -61,10 +61,11 @@ const About = () => {
               into my journey. After mastering the basics, I dove into React
               using the Vite build tool. I spent a lot of time on React before
               getting really good and learned how to use Git version control to
-              keep track of my work. Afterwards, I utilized Next.js as a
-              superset of React and improved styling efficiency with
-              TailwindCSS. These skills enabled me to set up and ensure a
-              seamless and steady development process.{' '}
+              keep track of my work. I felt as if I was decent at the front-end
+              that I was able to move onto the back-end to move into full-stack
+              development. Learning these skills have acquired me to grow as a
+              Web Developer and allow myself to make functional web
+              applications.{' '}
             </p>
             <p
               className='my-5 sm:pr-8 text-base sm:text-lg'
@@ -76,10 +77,10 @@ const About = () => {
               of what it involves makes me want to learn even more. Adopting a
               growth mindset toward development has enabled me to understand key
               concepts and turn them into complete applications. With these
-              acquired skills as my stack, I&#39;m able to create functional
-              software that work well and look impressive. I&#39;m very excited
-              to keep learning more each day, to increase my knowledge and
-              provide the best experience to my users.{' '}
+              acquired skills, I&#39;m able to create functional software that
+              work well and look impressive. I&#39;m very excited to keep
+              learning more each day, to increase my knowledge and provide the
+              best experience to my users.{' '}
             </p>
           </div>
           <div
