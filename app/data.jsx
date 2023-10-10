@@ -11,6 +11,9 @@ import Nodejs_IMG from '../public/assets/skills/node.png';
 import Vite_IMG from '../public/assets/skills/vite.png';
 import Git_IMG from '../public/assets/skills/git.png';
 import TypeScript_IMG from '../public/assets/skills/typescript.png';
+import Vercel_IMG from '../public/assets/skills/vercel.png';
+import VSCode_IMG from '../public/assets/skills/vscode.png';
+import MySQL_IMG from '../public/assets/skills/mysql.png';
 import ComingSoon_IMG from '../public/assets/projects/coming-soon.jpg';
 import TodoList_IMG from '../public/assets/projects/todo-list.png';
 import WeatherApp_IMG from '../public/assets/projects/weather-app.png';
@@ -38,64 +41,69 @@ export const skills = [
   },
   {
     id: 4,
+    name: 'TypeScript',
+    img: TypeScript_IMG,
+  },
+  {
+    id: 5,
     name: 'React',
     img: React_IMG,
   },
   {
-    id: 5,
+    id: 6,
     name: 'Vite',
     img: Vite_IMG,
   },
   {
-    id: 6,
+    id: 7,
     name: 'Next.js',
     img: Nextjs_IMG,
   },
   {
-    id: 7,
+    id: 8,
     name: 'TailwindCSS',
     img: TailwindCSS_IMG,
   },
-  {
-    id: 8,
-    name: 'Git',
-    img: Git_IMG,
-  },
-  /*
-  {
-    id: 8,
-    name: 'PostgreSQL',
-    img: PostgreSQL_IMG,
-  },
-  */
-  /*
   {
     id: 9,
     name: 'MongoDB',
     img: MongoDB_IMG,
   },
-  */
-  /*
   {
     id: 10,
-    name: 'Node.js',
-    img: Nodejs_IMG,
+    name: 'MySQL',
+    img: MySQL_IMG,
   },
-  */
-  /*
   {
     id: 11,
+    name: 'PostgreSQL',
+    img: PostgreSQL_IMG,
+  },
+  {
+    id: 12,
     name: 'Express',
     img: Express_IMG,
   },
-  */
-  /*
   {
-    id: 12,
-    name: 'TypeScript',
-    img: TypeScript_IMG,
+    id: 13,
+    name: 'Node.js',
+    img: Nodejs_IMG,
   },
-  */
+  {
+    id: 14,
+    name: 'Git',
+    img: Git_IMG,
+  },
+  {
+    id: 15,
+    name: 'VS Code',
+    img: VSCode_IMG,
+  },
+  {
+    id: 16,
+    name: 'Vercel',
+    img: Vercel_IMG,
+  },
 ];
 
 export const projects = [
