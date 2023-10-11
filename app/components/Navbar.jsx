@@ -61,7 +61,7 @@ const Navbar = () => {
                 key={nav.id}
                 href={nav.url}
                 passHref>
-                <li className='ml-10 text-base uppercase hover:border-b-2 transition-all border-blue-500 hover:text-blue-500 ease-in duration-100'>
+                <li className='ml-10 text-sm sm:text-base uppercase hover:border-b-2 transition-all border-blue-500 hover:text-blue-500 ease-in duration-100'>
                   {nav.name}
                 </li>
               </Link>
@@ -126,10 +126,10 @@ const Navbar = () => {
               ))}
             </ul>
             <div className='pt-10'>
-              <p className='text-base flex justify-center items-center sm:text-base uppercase tracking-widest text-blue-500'>
+              <p className='flex justify-center items-center text-sm sm:text-base uppercase tracking-widest text-blue-500'>
                 Let&#39;s Connect
               </p>
-              <div className='text-lg sm:text-lg flex items-center justify-center my-4 w-full'>
+              <div className='text-sm sm:text-base flex items-center justify-center my-4 w-full'>
                 {links.map(link => (
                   <Link
                     key={link.id}

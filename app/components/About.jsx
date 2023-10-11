@@ -32,43 +32,38 @@ const About = () => {
         <div className='flex items-center justify-center lg:flex-row flex-col'>
           <div>
             <p
-              className='my-5 sm:pr-8 text-base sm:text-lg'
+              className='my-5 lg:pr-8 text-sm md:text-base'
               data-aos='fade-right'
               data-aos-duration='1000'
               data-aos-offset='200'
               data-aos-once='true'>
-              I&#39;m a Web Developer, specializing in full-stack, who loves
-              creating functional applications that are pleasing to look at and
-              easy to use. I&#39;ve been using websites since I was young,
-              relying on them for entertainment and information every day. The
-              web has changed my personal life and improved it in so many ways.
-              Due to that, it got me curious about the steps needed to build
-              websites. Details like design, features, and ease of use made me
-              really want to learn how to make websites myself. This led me to
-              want to look into the process of making web applications that
-              other people can use.{' '}
+              I&#39;ve been using websites since I was young, relying on them
+              for entertainment and information every day. The web has changed
+              my personal life and improved it in so many ways. Due to that, it
+              got me curious about the steps needed to build websites. Details
+              like design, features, and ease of use made me really want to
+              learn how to make websites myself. I was then motivated to look
+              into the process of making web applications that other people can
+              use.{' '}
             </p>
             <p
-              className='my-5 sm:pr-8 text-base sm:text-lg'
+              className='my-5 lg:pr-8 text-sm md:text-base'
               data-aos='fade-right'
               data-aos-duration='1000'
               data-aos-offset='200'
               data-aos-once='true'>
               My journey began by following tutorials on YouTube to create
               simple websites using basic HTML and CSS. Later, I added
-              JavaScript for functionality and dynamic design. I made numerous
-              small projects with these vanilla technologies before advancing
-              into my journey. After mastering the basics, I dove into React
-              using the Vite build tool. I spent a lot of time on React before
-              getting really good and learned how to use Git version control to
-              keep track of my work. I felt as if I was decent at the front-end
-              that I was able to move onto the back-end to move into full-stack
-              development. Learning these skills have acquired me to grow as a
-              Web Developer and allow myself to make functional web
-              applications.{' '}
+              JavaScript for dynamic functionality. I made numerous small
+              projects with these vanilla technologies before advancing into my
+              journey. After mastering the basics, I dove into React using the
+              Vite build tool, which I spent a lot of time to get good on. This
+              was just the beginning of my journey. Since then, I have learned a
+              ton of new technology to keep my knowledge up to date and be as
+              efficient as possible.{' '}
             </p>
             <p
-              className='my-5 sm:pr-8 text-base sm:text-lg'
+              className='my-5 lg:pr-8 text-sm md:text-base'
               data-aos='fade-right'
               data-aos-duration='1000'
               data-aos-offset='200'
@@ -78,7 +73,7 @@ const About = () => {
               growth mindset toward development has enabled me to understand key
               concepts and turn them into complete applications. With these
               acquired skills, I&#39;m able to create functional software that
-              work well and look impressive. I&#39;m very excited to keep
+              works well and looks impressive. I&#39;m very excited to keep
               learning more each day, to increase my knowledge and provide the
               best experience to my users.{' '}
             </p>

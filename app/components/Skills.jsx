@@ -29,7 +29,7 @@ const Skills = () => {
           data-aos-once='true'>
           What I Can Do
         </h2>
-        <div className='text-base grid md:grid-cols-2 lg:grid-cols-4 gap-2'>
+        <div className='text-sm grid md:grid-cols-2 lg:grid-cols-4 gap-2'>
           {skills.map(skill => (
             <div key={skill.id}>
               <div

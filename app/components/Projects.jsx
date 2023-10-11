@@ -48,7 +48,7 @@ const Projects = () => {
                     width='2000'
                     height='1390'
                   />
-                  <h2 className='text-xl sm:text-2xl pb-2 sm:pb-5 tracking-wider text-center '>
+                  <h2 className='text-xl md:text-2xl pb-6 sm:pb-5 tracking-wider text-center '>
                     {project.name}
                   </h2>
                   <div className='flex items-center justify-center'>
@@ -60,7 +60,7 @@ const Projects = () => {
                           rel='noreferrer'
                           passHref>
                           <div className='flex items-center justify-center'>
-                            <p className='font-bold text-base sm:text-lg'>
+                            <p className='font-bold text-sm md:text-base'>
                               Demo
                             </p>
                             <div className='pl-2'>
@@ -79,7 +79,7 @@ const Projects = () => {
                           rel='noreferrer'
                           passHref>
                           <div className='flex items-center justify-center'>
-                            <p className='font-bold text-base sm:text-lg'>
+                            <p className='font-bold text-sm md:text-base'>
                               Code
                             </p>
                             <div className='pl-2'>
@@ -91,7 +91,7 @@ const Projects = () => {
                       </div>
                     </div>
                   </div>
-                  <h2 className='text-center text-sm sm:text-base text-gray-400 pt-2 sm:pt-8'>
+                  <h2 className='text-center text-sm md:text-base text-gray-400 pt-2 sm:pt-8'>
                     {project.description}
                   </h2>
                   <div className='flex items-center justify-center'>
