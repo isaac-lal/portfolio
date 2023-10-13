@@ -3,19 +3,19 @@ import CSS_IMG from '../public/assets/skills/css.png';
 import JavaScript_IMG from '../public/assets/skills/javascript.png';
 import React_IMG from '../public/assets/skills/react.png';
 import TailwindCSS_IMG from '../public/assets/skills/tailwind.png';
-// import MongoDB_IMG from '../public/assets/skills/mongo.png';
+import MongoDB_IMG from '../public/assets/skills/mongo.png';
 // import PostgreSQL_IMG from '../public/assets/skills/postgres.png';
-// import Express_IMG from '../public/assets/skills/express.png';
+import Express_IMG from '../public/assets/skills/express.png';
 import Nextjs_IMG from '../public/assets/skills/next.png';
 // import Redux_IMG from '../public/assets/skills/redux.png'
-import SASS_IMG from '../public/assets/skills/sass.png';
-// import Nodejs_IMG from '../public/assets/skills/node.png';
-import Vite_IMG from '../public/assets/skills/vite.png';
+// import SASS_IMG from '../public/assets/skills/sass.png';
+import Nodejs_IMG from '../public/assets/skills/node.png';
+// import Vite_IMG from '../public/assets/skills/vite.png';
 import Git_IMG from '../public/assets/skills/git.png';
 // import TypeScript_IMG from '../public/assets/skills/typescript.png';
 import Vercel_IMG from '../public/assets/skills/vercel.png';
 import VSCode_IMG from '../public/assets/skills/vscode.png';
-import MUI_IMG from '../public/assets/skills/mui.png';
+// import MUI_IMG from '../public/assets/skills/mui.png';
 // import MySQL_IMG from '../public/assets/skills/mysql.png';
 // import ComingSoon_IMG from '../public/assets/projects/coming-soon.jpg';
 import TodoList_IMG from '../public/assets/projects/todo-list.png';
@@ -52,55 +52,55 @@ export const skills = [
     name: 'React',
     img: React_IMG,
   },
+  // {
+  //   id: 6,
+  //   name: 'Vite',
+  //   img: Vite_IMG,
+  // },
   {
     id: 5,
-    name: 'Vite',
-    img: Vite_IMG,
+    name: 'MongoDB',
+    img: MongoDB_IMG,
   },
   {
     id: 6,
-    name: 'Next.js',
-    img: Nextjs_IMG,
+    name: 'Express',
+    img: Express_IMG,
   },
   {
     id: 7,
-    name: 'SASS',
-    img: SASS_IMG,
+    name: 'Node.js',
+    img: Nodejs_IMG,
   },
   {
     id: 8,
+    name: 'Next.js',
+    img: Nextjs_IMG,
+  },
+  // {
+  //   id: 8,
+  //   name: 'SASS',
+  //   img: SASS_IMG,
+  // },
+  {
+    id: 9,
     name: 'TailwindCSS',
     img: TailwindCSS_IMG,
   },
-  {
-    id: 9,
-    name: 'Material UI',
-    img: MUI_IMG,
-  },
-  // {
-  //   id: 9,
-  //   name: 'MongoDB',
-  //   img: MongoDB_IMG,
-  // },
   // {
   //   id: 10,
+  //   name: 'Material UI',
+  //   img: MUI_IMG,
+  // },
+  // {
+  //   id: 12,
   //   name: 'MySQL',
   //   img: MySQL_IMG,
   // },
   // {
-  //   id: 11,
+  //   id: 13,
   //   name: 'PostgreSQL',
   //   img: PostgreSQL_IMG,
-  // },
-  // {
-  //   id: 12,
-  //   name: 'Express',
-  //   img: Express_IMG,
-  // },
-  // {
-  //   id: 13,
-  //   name: 'Node.js',
-  //   img: Nodejs_IMG,
   // },
   {
     id: 10,
