@@ -71,7 +71,7 @@ const Home = () => {
             data-aos-delay='3000'
             data-aos-once='true'>
             Here is my portfolio, displaying all of my expertise as a Web
-            Developer with ƒront-end experience. This is where you&#39;ll
+            Developer with front-end experience. This is where you&#39;ll
             discover my skills in relevant technologies, my best projects, and a
             contact form for getting in touch with me. I hope you will enjoy!
           </p>
