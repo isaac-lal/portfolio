@@ -61,7 +61,7 @@ const Navbar = () => {
                 key={nav.id}
                 href={nav.url}
                 passHref>
-                <li className='ml-10 text-sm sm:text-base uppercase hover:border-b-2 transition-all border-blue-500 hover:text-blue-500 ease-in duration-100'>
+                <li className='ml-10 text-sm sm:text-base uppercase hover:border-b-2 transition-all border-[#007FFF] hover:text-[#007FFF] ease-in duration-100'>
                   {nav.name}
                 </li>
               </Link>
@@ -103,7 +103,7 @@ const Navbar = () => {
               </Link>
               <div
                 onClick={handleNav}
-                className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-100 p-3 cursor-pointer hover:shadow-blue-500 hover:text-blue-500 ease-in duration-100'>
+                className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-100 p-3 cursor-pointer hover:shadow-[#007FFF] hover:text-[#007FFF] ease-in duration-100'>
                 <AiOutlineClose />
               </div>
             </div>
@@ -118,7 +118,7 @@ const Navbar = () => {
                   <div className='flex items-center justify-center py-2'>
                     <li
                       onClick={() => setNav(false)}
-                      className='text-base uppercase hover:border-b-2 transition-0.3 border-blue-500 hover:text-blue-500 ease-in duration-100'>
+                      className='text-base uppercase hover:border-b-2 transition-0.3 border-[#007FFF] hover:text-[#007FFF] ease-in duration-100'>
                       {nav.name}
                     </li>
                   </div>
@@ -126,7 +126,7 @@ const Navbar = () => {
               ))}
             </ul>
             <div className='pt-10'>
-              <p className='flex justify-center items-center text-sm sm:text-base uppercase tracking-widest text-blue-500'>
+              <p className='flex justify-center items-center text-sm sm:text-base uppercase tracking-widest text-[#007FFF]'>
                 Let&#39;s Connect
               </p>
               <div className='text-sm sm:text-base flex items-center justify-center my-4 w-full'>
@@ -138,7 +138,7 @@ const Navbar = () => {
                     rel='noreferrer'
                     passHref>
                     <div className='px-2'>
-                      <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-100 p-3 cursor-pointer hover:scale-110 hover:shadow-blue-500 hover:text-blue-500 ease-in duration-300'>
+                      <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-100 p-3 cursor-pointer hover:scale-110 hover:shadow-[#007FFF] hover:text-[#007FFF] ease-in duration-300'>
                         {link.icon}
                       </div>
                     </div>

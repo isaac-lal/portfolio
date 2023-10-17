@@ -40,7 +40,7 @@ const Projects = () => {
                 data-aos-duration='1000'
                 data-aos-offset='200'
                 data-aos-once='true'>
-                <div className='items-center justify-center h-auto w-full shadow-lg shadow-gray-400 dark:shadow-gray-100 rounded-xl p-4 group hover:shadow-blue-500 hover:scale-105 ease-in duration-100'>
+                <div className='items-center justify-center h-auto w-full shadow-lg shadow-gray-400 dark:shadow-gray-100 rounded-xl p-4 group hover:shadow-[#007FFF] hover:scale-105 ease-in duration-100'>
                   <Image
                     className='rounded-xl group-hover:opacity-30'
                     src={project.img}
@@ -53,7 +53,7 @@ const Projects = () => {
                   </h2>
                   <div className='flex items-center justify-center'>
                     <div className='pr-2'>
-                      <div className='px-2 sm:px-4 p-1.5 sm:p-2 rounded-full bg-white dark:bg-[#323232] cursor-pointer hover:bg-blue-500 ease-in duration-200'>
+                      <div className='px-2 sm:px-4 p-1.5 sm:p-2 rounded-full bg-white dark:bg-[#323232] cursor-pointer hover:bg-[#007FFF] ease-in duration-200'>
                         <Link
                           href={project.demoURL}
                           target='_blank'
@@ -72,7 +72,7 @@ const Projects = () => {
                       </div>
                     </div>
                     <div className='pl-2'>
-                      <div className='px-2 sm:px-4 p-1.5 sm:p-2 rounded-full bg-white dark:bg-[#323232] cursor-pointer hover:bg-blue-500 ease-in duration-200'>
+                      <div className='px-2 sm:px-4 p-1.5 sm:p-2 rounded-full bg-white dark:bg-[#323232] cursor-pointer hover:bg-[#007FFF] ease-in duration-200'>
                         <Link
                           href={project.codeURL}
                           target='_blank'

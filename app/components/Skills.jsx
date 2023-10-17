@@ -37,7 +37,7 @@ const Skills = () => {
                 data-aos-duration='1000'
                 data-aos-offset='200'
                 data-aos-once='true'>
-                <div className='p-6 shadow-lg shadow-gray-400 dark:shadow-gray-100 rounded-xl hover:scale-105 hover:shadow-blue-500 hover:text-blue-500 ease-in duration-300'>
+                <div className='p-6 shadow-lg shadow-gray-400 dark:shadow-gray-100 rounded-xl hover:scale-105 hover:shadow-[#007FFF] hover:text-[#007FFF] ease-in duration-300'>
                   <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                     <div className='m-auto cursor-pointer'>
                       <Image

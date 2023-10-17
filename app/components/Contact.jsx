@@ -67,7 +67,7 @@ const Contact = () => {
           data-aos-duration='1000'
           data-aos-offset='200'
           data-aos-once='true'>
-          <div className='w-full h-auto shadow-lg shadow-gray-400 hover:scale-105 dark:shadow-gray-100 rounded-xl lg:p-4 hover:shadow-blue-500 ease-in duration-100'>
+          <div className='w-full h-auto shadow-lg shadow-gray-400 hover:scale-105 dark:shadow-gray-100 rounded-xl lg:p-4 hover:shadow-[#007FFF] ease-in duration-100'>
             <div
               className='p-4'
               data-aos='fade-up'
@@ -129,7 +129,7 @@ const Contact = () => {
                     name='message'
                     required></textarea>
                 </div>
-                <button className='cursor-pointer hover:scale-105 w-full p-4 text-black dark:text-gray-100 mt-4 hover:bg-blue-500 ease-in duration-200'>
+                <button className='cursor-pointer hover:scale-105 w-full p-4 text-black dark:text-gray-100 mt-4 hover:bg-[#007FFF] ease-in duration-200'>
                   Send Message
                 </button>
               </form>
@@ -140,9 +140,9 @@ const Contact = () => {
           <Link
             href='/#home'
             passHref>
-            <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-100 p-4 cursor-pointer hover:scale-110 hover:shadow-blue-500 hover:text-blue-500 ease-in duration-300'>
+            <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-100 p-4 cursor-pointer hover:scale-110 hover:shadow-[#007FFF] hover:text-[#007FFF] ease-in duration-300'>
               <HiOutlineChevronDoubleUp
-                className='hover:text-blue-500'
+                className='hover:text-[#007FFF]'
                 size={30}
               />
             </div>
