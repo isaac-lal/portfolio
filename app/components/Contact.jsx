@@ -17,7 +17,7 @@ const Contact = () => {
 
   const form = useRef();
   const { enqueueSnackbar } = useSnackbar();
-  const sendEmail = e => {
+  const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
@@ -28,7 +28,7 @@ const Contact = () => {
         process.env.NEXT_PUBLIC_PUBLIC_KEY
       )
       .then(
-        result => {
+        (result) => {
           console.log(result.text);
           enqueueSnackbar(
             "Thanks for submitting the form! I'll contact you soon.",
@@ -36,7 +36,7 @@ const Contact = () => {
           );
           e.target.reset();
         },
-        error => {
+        (error) => {
           console.log(error.text);
           enqueueSnackbar(
             'Something went wrong. Contact me at isaaclal124@gmail.com',

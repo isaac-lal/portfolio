@@ -30,7 +30,7 @@ const Skills = () => {
           What I Can Do
         </h2>
         <div className='text-sm grid md:grid-cols-2 lg:grid-cols-4 gap-2'>
-          {skills.map(skill => (
+          {skills.map((skill) => (
             <div key={skill.id}>
               <div
                 data-aos='zoom-in-up'

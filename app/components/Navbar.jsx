@@ -56,7 +56,7 @@ const Navbar = () => {
         </Link>
         <div>
           <ul className='hidden md:flex'>
-            {navs.map(nav => (
+            {navs.map((nav) => (
               <Link
                 key={nav.id}
                 href={nav.url}
@@ -110,7 +110,7 @@ const Navbar = () => {
           </div>
           <div className='py-4'>
             <ul className='uppercase'>
-              {navs.map(nav => (
+              {navs.map((nav) => (
                 <Link
                   key={nav.id}
                   href={nav.url}
@@ -130,7 +130,7 @@ const Navbar = () => {
                 Let&#39;s Connect
               </p>
               <div className='text-sm sm:text-base flex items-center justify-center my-4 w-full'>
-                {links.map(link => (
+                {links.map((link) => (
                   <Link
                     key={link.id}
                     href={link.name}

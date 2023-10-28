@@ -86,7 +86,7 @@ const Home = () => {
             data-aos-duration='1000'
             data-aos-delay='3000'
             data-aos-once='true'>
-            {links.map(link => (
+            {links.map((link) => (
               <Link
                 key={link.id}
                 href={link.name}
