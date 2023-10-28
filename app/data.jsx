@@ -53,7 +53,7 @@ export const skills = [
     img: React_IMG,
   },
   {
-    id: 6,
+    id: 5,
     name: 'MongoDB',
     img: MongoDB_IMG,
   },
@@ -63,37 +63,37 @@ export const skills = [
   //   img: PostgreSQL_IMG,
   // },
   {
-    id: 8,
+    id: 6,
     name: 'Node.js',
     img: Nodejs_IMG,
   },
   {
-    id: 9,
+    id: 7,
     name: 'Express',
     img: Express_IMG,
   },
   {
-    id: 10,
+    id: 8,
     name: 'Next.js',
     img: Nextjs_IMG,
   },
   {
-    id: 12,
+    id: 9,
     name: 'TailwindCSS',
     img: TailwindCSS_IMG,
   },
   {
-    id: 14,
+    id: 10,
     name: 'Git',
     img: Git_IMG,
   },
   {
-    id: 15,
+    id: 11,
     name: 'VS Code',
     img: VSCode_IMG,
   },
   {
-    id: 16,
+    id: 12,
     name: 'Vercel',
     img: Vercel_IMG,
   },

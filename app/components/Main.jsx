@@ -43,25 +43,22 @@ const Home = () => {
               sequence={[
                 'A Web Developer',
                 3500,
-                'A Front-End Developer',
+                'A Full-Stack Developer',
                 3500,
                 'A Software Engineer',
-                3500,
-                'A Creative Thinker',
-                3500,
-                'A Passionate Learner',
                 3500,
                 'A Nerd',
                 3500,
                 'A Nice Person',
                 10000,
+
                 'a one piece fan',
                 500,
               ]}
               wrapper='div'
               cursor={true}
               repeat={Infinity}
-              style={{ fontSize: '1.5em' }}
+              style={{ fontSize: '1.4em' }}
             />
           </h2>
           <p
