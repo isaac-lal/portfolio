@@ -8,6 +8,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { useSnackbar } from 'notistack';
 
 const Contact = () => {
   useEffect(() => {
@@ -15,7 +16,7 @@ const Contact = () => {
   }, []);
 
   const form = useRef();
-
+  const { enqueueSnackbar } = useSnackbar();
   const sendEmail = e => {
     e.preventDefault();
 
@@ -29,15 +30,17 @@ const Contact = () => {
       .then(
         result => {
           console.log(result.text);
-          alert(
-            '"Thank you for sending your message! I\'ll contact you shortly! :)" -Isaac Lal'
+          enqueueSnackbar(
+            "Thanks for submitting the form! I'll contact you soon.",
+            { variant: 'success' }
           );
           e.target.reset();
         },
         error => {
           console.log(error.text);
-          alert(
-            '"There was an error sending your message. If it continues, send me an email at: isaaclal124@gmail.com :)" -Isaac Lal'
+          enqueueSnackbar(
+            'Something went wrong. Contact me at isaaclal124@gmail.com',
+            { variant: 'error' }
           );
         }
       );

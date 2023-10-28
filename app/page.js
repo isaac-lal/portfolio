@@ -8,17 +8,20 @@ import Skills from './components/Skills';
 import About from './components/About';
 import Footer from './components/Footer';
 import './globals.css';
+import { SnackbarProvider } from 'notistack';
 
 export default function Home() {
   return (
     <main>
-      <Navbar />
-      <Main />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Footer />
+      <SnackbarProvider>
+        <Navbar />
+        <Main />
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />
+        <Footer />
+      </SnackbarProvider>
     </main>
   );
 }
