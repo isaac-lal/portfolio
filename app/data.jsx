@@ -22,6 +22,10 @@ import TodoList_IMG from '../public/assets/projects/todo-list.png';
 import WeatherApp_IMG from '../public/assets/projects/weather-app.png';
 import EntertainmentSearch_IMG from '../public/assets/projects/entertainment-search.png';
 import Calculator_IMG from '../public/assets/projects/calculator.png';
+import BlogPage_IMG from '../public/assets/projects/blog-page.png';
+import EcommerceStore_IMG from '../public/assets/projects/ecommerce-store.png';
+import BookingApp_IMG from '../public/assets/projects/booking-app.png';
+import ChatApp_IMG from '../public/assets/projects/chat-app.png';
 import { AiOutlineMail } from 'react-icons/ai';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { BsFillPersonFill } from 'react-icons/bs';
@@ -102,43 +106,39 @@ export const skills = [
 export const projects = [
   {
     id: 1,
-    name: 'Todo List',
-    img: TodoList_IMG,
-    codeURL: 'https://github.com/isaac-lal/local-todo-list',
-    demoURL: 'https://local-todo-list.isaaclal.com/',
+    name: 'Blog Page',
+    img: BlogPage_IMG,
+    codeURL: 'https://github.com/isaac-lal/blog-page',
+    demoURL: 'https://blog-page.isaaclal.com/',
     description:
-      'This is a todo list that runs locally on the website and tracks tasks with CRUD functionality.',
-    technologies: 'React',
+      'Fullstack blog page with CRUD features such as creating, deleting, and editing blogs on the server to display to the client. Built using the MERN stack.',
   },
   {
     id: 2,
-    name: 'Weather App',
-    img: WeatherApp_IMG,
-    codeURL: 'https://github.com/isaac-lal/minimal-weather-app',
-    demoURL: 'https://minimal-weather-app.isaaclal.com/',
+    name: 'Booking App',
+    img: BookingApp_IMG,
+    codeURL: 'https://github.com/isaac-lal/booking-app',
+    demoURL: 'https://booking-app.isaaclal.com/',
     description:
-      'This is a minimal weather app that tracks temperature, min, max, feels like, humidity, pressure, and wind speed.',
-    technologies: 'React',
+      'Fullstack booking application that mimics the functionality of AirBNB at a CRUD level. Built using the MERN stack.',
   },
   {
     id: 3,
-    name: 'Entertainment Search',
-    img: EntertainmentSearch_IMG,
-    codeURL: 'https://github.com/isaac-lal/simple-entertainment-search',
-    demoURL: 'https://simple-entertainment-search.isaaclal.com/',
+    name: 'Ecommerce Store',
+    img: EcommerceStore_IMG,
+    codeURL: 'https://github.com/isaac-lal/ecommerce-store',
+    demoURL: 'https://ecommerce-store.isaaclal.com/',
     description:
-      'This is an entertainment search app that uses the OMDB API to search up movies, tv shows, and games.',
-    technologies: 'React',
+      'Fullstack ecommerce store project that features both a store display and an admin panel control. Built with Next.js, Tailwind, and MongoDB.',
   },
   {
     id: 4,
-    name: 'Calculator',
-    img: Calculator_IMG,
-    codeURL: 'https://github.com/isaac-lal/calculator',
-    demoURL: 'https://calculator.isaaclal.com/',
+    name: 'Chat App',
+    img: ChatApp_IMG,
+    codeURL: 'https://github.com/isaac-lal/chat-app',
+    demoURL: 'https://chat-app.isaaclal.com/',
     description:
-      'This is a calculator application that can be used to add, subtract, multiply, and divide recurring numbers.',
-    technologies: 'React',
+      'Fullstack chat app that allows real-time messaging between multiple people through a REST API. Built using the MERN stack.',
   },
 ];
 
@@ -183,7 +183,7 @@ export const links = [
   },
   {
     id: 3,
-    name: 'https://drive.google.com/file/d/1-FWIofI0mm3qtuvyC77wDHJjD5sbMtu0/view?usp=sharing',
+    name: 'https://drive.google.com/file/d/1gFVD45ODOElkMoLkal-TSXvTorwp0IJH/view?usp=sharing',
     icon: <BsFillPersonFill />,
   },
   {

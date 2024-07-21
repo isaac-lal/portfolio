@@ -94,11 +94,6 @@ const Projects = () => {
                   <h2 className='text-center text-sm md:text-base text-gray-400 pt-2 sm:pt-8'>
                     {project.description}
                   </h2>
-                  <div className='flex items-center justify-center'>
-                    <p className='inline-block items-center text-center rounded-full p-1.5 bg-white dark:bg-[#232323] text-xs sm:text-sm'>
-                      {project.technologies}
-                    </p>
-                  </div>
                 </div>
               </div>
             </div>
