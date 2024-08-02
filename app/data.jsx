@@ -110,8 +110,10 @@ export const projects = [
     img: BlogPage_IMG,
     codeURL: 'https://github.com/isaac-lal/blog-page',
     demoURL: 'https://blog-page.isaaclal.com/',
-    description:
-      'Fullstack blog page with CRUD features such as creating, deleting, and editing blogs on the server to display to the client. Built using the MERN stack.',
+    tech:
+      'TECH: React, MongoDB, Express, Node.js, CSS, JWT',
+    features:
+      'FEATURES: Auth, REST API, CRUD, SSL, Per User Settings',
   },
   {
     id: 2,
@@ -119,8 +121,10 @@ export const projects = [
     img: BookingApp_IMG,
     codeURL: 'https://github.com/isaac-lal/booking-app',
     demoURL: 'https://booking-app.isaaclal.com/',
-    description:
-      'Fullstack booking application that mimics the functionality of AirBNB at a CRUD level. Built using the MERN stack.',
+    tech:
+      'TECH: React, MongoDB, Express, Node.js, TailwindCSS',
+    features:
+      'FEATURES: Auth, REST API, CRUD, SSL, Per User Settings',
   },
   {
     id: 3,
@@ -128,8 +132,10 @@ export const projects = [
     img: EcommerceStore_IMG,
     codeURL: 'https://github.com/isaac-lal/ecommerce-store',
     demoURL: 'https://ecommerce-store.isaaclal.com/',
-    description:
-      'Fullstack ecommerce store project that features both a store display and an admin panel control. Built with Next.js, Tailwind, and MongoDB.',
+    tech:
+      'TECH: React, Next.js, MongoDB, Node.js, CSS',
+    features:
+      'FEATURES: Auth, REST API, CRUD, SSL, Admin Dashboard',
   },
   {
     id: 4,
@@ -137,8 +143,10 @@ export const projects = [
     img: ChatApp_IMG,
     codeURL: 'https://github.com/isaac-lal/chat-app',
     demoURL: 'https://chat-app.isaaclal.com/',
-    description:
-      'Fullstack chat app that allows real-time messaging between multiple people through a REST API. Built using the MERN stack.',
+    tech:
+      'TECH: React, MongoDB, Express, Node.js, TailwindCSS, Websockets',
+    features:
+      'FEATURES: Auth, REST API, CRUD, SSL, Real-Time Messaging',
   },
 ];
 
