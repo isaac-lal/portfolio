@@ -111,7 +111,7 @@ export const projects = [
     codeURL: 'https://github.com/isaac-lal/blog-page',
     demoURL: 'https://blog-page.isaaclal.com/',
     tech:
-      'TECH: React, MongoDB, Express, Node.js, CSS, JWT',
+      'TECH: React, MongoDB, Express, Node.js, JavaScript, CSS, JWT',
     features:
       'FEATURES: Auth, REST API, CRUD, SSL, Per User Settings',
   },
@@ -122,7 +122,7 @@ export const projects = [
     codeURL: 'https://github.com/isaac-lal/booking-app',
     demoURL: 'https://booking-app.isaaclal.com/',
     tech:
-      'TECH: React, MongoDB, Express, Node.js, TailwindCSS',
+      'TECH: React, MongoDB, Express, Node.js, JavaScript, TailwindCSS',
     features:
       'FEATURES: Auth, REST API, CRUD, SSL, Per User Settings',
   },
@@ -133,9 +133,9 @@ export const projects = [
     codeURL: 'https://github.com/isaac-lal/ecommerce-store',
     demoURL: 'https://ecommerce-store.isaaclal.com/',
     tech:
-      'TECH: React, Next.js, MongoDB, Node.js, CSS',
+      'TECH: React, MongoDB, Express, Node.js, JavaScript, CSS',
     features:
-      'FEATURES: Auth, REST API, CRUD, SSL, Admin Dashboard',
+      'FEATURES: Auth, REST API, CRUD, SSL, Stripe Checkout',
   },
   {
     id: 4,
@@ -144,7 +144,7 @@ export const projects = [
     codeURL: 'https://github.com/isaac-lal/chat-app',
     demoURL: 'https://chat-app.isaaclal.com/',
     tech:
-      'TECH: React, MongoDB, Express, Node.js, TailwindCSS, Websockets',
+      'TECH: React, MongoDB, Express, Node.js, JavaScript, TailwindCSS, Websockets',
     features:
       'FEATURES: Auth, REST API, CRUD, SSL, Real-Time Messaging',
   },
