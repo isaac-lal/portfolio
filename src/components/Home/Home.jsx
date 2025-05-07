@@ -17,15 +17,19 @@ const Home = () => {
           <TypeAnimation
             sequence={[
               'A Web Developer',
-              3500,
-              'A Game Developer',
-              3500,
+              3000,
+              'A I.T. Professional',
+              3000,
               'A Software Engineer',
-              3500,
+              3000,
+              'A Coder',
+              3000,
+              'A Gamer',
+              3000,
               'A Nerd',
-              3500,
+              3000,
               'A Nice Person',
-              3500,
+              3000,
             ]}
             wrapper='div'
             cursor={true}
