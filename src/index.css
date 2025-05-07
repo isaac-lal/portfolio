@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   scroll-behavior: smooth !important;
 }
@@ -51,9 +55,10 @@ input {
 }
 
 button {
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 8px 10px -6px rgba(0, 0, 0, 0.1);
   border-radius: 12px;
-  background-color: #CDCDCD;
+  background-color: #cdcdcd;
   color: white;
   text-transform: uppercase;
 }

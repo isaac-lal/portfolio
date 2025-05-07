@@ -1,16 +1,22 @@
-/* ---------- NAVBAR ---------- */
-
-/* DEFAULT */
 header {
   position: fixed;
   top: 0;
   right: 0;
   width: 100%;
   z-index: 1000;
+  background-color: #ecf0f3;
 }
 
-/* Menu Display */
-.navbar {
+.Navbar__Wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.Navbar__List {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -18,18 +24,17 @@ header {
   list-style: none;
 }
 
-/* Links */
-.nav-link {
+.Navbar__Links {
   color: #121212;
   text-decoration: none;
   transition: 0.25s;
 }
 
-.nav-link:hover {
+.Navbar__Links:hover {
   color: #007fff;
 }
 
-.nav-link:after {
+.Navbar__Links:after {
   content: '';
   width: 0%;
   height: 2px;
@@ -39,17 +44,17 @@ header {
   transition: 0.25s;
 }
 
-.nav-link:hover::after {
+.Navbar__Links:hover::after {
   width: 100%;
 }
 
 /* JavaScript Hamburger Menu */
-.hamburger {
+.Navbar__Hamburger {
   display: none;
   cursor: pointer;
 }
 
-.bar {
+.Navbar__Bar {
   display: block;
   width: 25px;
   height: 3px;
@@ -66,26 +71,26 @@ header {
     padding: 16px 4%;
   }
 
-  .hamburger {
+  .Navbar__Hamburger {
     display: block;
   }
 
-  .hamburger.active .bar:nth-child(2) {
+  .Navbar__Hamburger.active .Navbar__Bar:nth-child(2) {
     opacity: 0;
   }
 
-  .hamburger.active .bar:nth-child(1) {
+  .Navbar__Hamburger.active .Navbar__Bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
   }
 
-  .hamburger.active .bar:nth-child(3) {
+  .Navbar__Hamburger.active .Navbar__Bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
 
-  .navbar {
+  .Navbar__List {
     position: fixed;
     right: -150%;
-    top: 45px;
+    top: 60px;
     gap: 0;
     flex-direction: column;
     background-color: #ecf0f3;
@@ -95,16 +100,17 @@ header {
     z-index: 1;
   }
 
-  .navbar li {
+  .Navbar__List li {
     margin: 8px 0;
   }
 
-  .navbar.active {
+  .Navbar__List.active {
     right: 0;
   }
 
-  .logo {
-    font-size: 40px;
+  .Navbar__Wrapper {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 
@@ -114,11 +120,7 @@ header {
     padding: 12px 2%;
   }
 
-  .logo {
-    font-size: 35px;
-  }
-
-  .navbar {
+  .Navbar__List {
     top: 45px;
   }
 }
