@@ -89,7 +89,7 @@ header {
   .Navbar__List {
     position: fixed;
     right: -150%;
-    top: 60px;
+    top: 65px;
     gap: 0;
     flex-direction: column;
     background-color: #ecf0f3;
@@ -105,6 +105,7 @@ header {
 
   .Navbar__List.active {
     right: 0;
+    padding-left: 0;
   }
 
   .Navbar__Wrapper {
@@ -120,6 +121,6 @@ header {
   }
 
   .Navbar__List {
-    top: 45px;
+    top: 65px;
   }
 }
