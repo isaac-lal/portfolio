@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div
       id='home'
-      className='Home__Container'>
+      className='Home__Header'>
       <div>
         <p className='Home__Intro'>Welcome, my name is</p>
         <h1 className='Home__Name'>Isaac Lal</h1>

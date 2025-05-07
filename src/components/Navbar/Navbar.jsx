@@ -15,9 +15,10 @@ const Navbar = () => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
   return (
     <header className={menuOpen ? 'sticky' : ''}>
-<ul className={`navbar ${menuOpen ? 'active' : ''}`}>
+      <ul className={`navbar ${menuOpen ? 'active' : ''}`}>
         <li>
           <a
             href='#home'

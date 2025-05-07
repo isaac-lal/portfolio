@@ -1,19 +1,21 @@
-.Home__Container {
+.Home__Header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   overflow: auto;
   width: 100%;
-  height: 100vh;  
+  height: 100vh;
   text-align: center;
 }
 
 .Home__Intro {
-  letter-spacing: 0.1em;        
-  color: #1f2937;               
+  letter-spacing: 0.1em;
+  color: #1f2937;
   font-size: 14px;
 }
 
 .Home__Name {
   font-size: 30px;
-  padding-bottom: 8px;
   color: #007fff;
 }
 
@@ -38,7 +40,7 @@
   font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: #007FFF;
+  color: #007fff;
 }
 
 .Home__Links {
@@ -60,12 +62,69 @@
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
-  color:#374151;
+  color: #374151;
   transition: all 300ms ease-in;
 }
 
 .Home__LinkIcons:hover {
-    transform: scale(1.1);
-    box-shadow: 0 10px 15px -3px #007FFF, 0 4px 6px -4px #007FFF;
-    color: #007FFF;
+  transform: scale(1.1);
+  box-shadow: 0 10px 15px -3px #007fff, 0 4px 6px -4px #007fff;
+  color: #007fff;
+}
+
+@media (max-width: 768px) {
+  .Home__Name {
+    font-size: 26px;
   }
+
+  .Home__TypeAnimation {
+    font-size: 14px;
+  }
+
+  .Home__Description {
+    font-size: 13px;
+    max-width: 85%;
+  }
+
+  .Home__Connect,
+  .Home__Links {
+    font-size: 14px;
+  }
+
+  .Home__LinkIcons {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Home__Name {
+    font-size: 22px;
+  }
+
+  .Home__TypeAnimation {
+    font-size: 13px;
+  }
+
+  .Home__Description {
+    font-size: 12px;
+    max-width: 90%;
+  }
+
+  .Home__LinkIcons {
+    padding: 18px;
+  }
+}
+
+@media (max-width: 375px) {
+  .Home__Name {
+    font-size: 20px;
+  }
+
+  .Home__Description {
+    font-size: 11px;
+  }
+
+  .Home__LinkIcons {
+    padding: 16px;
+  }
+}

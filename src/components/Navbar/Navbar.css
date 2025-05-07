@@ -60,78 +60,62 @@ header {
   background-color: #121212;
 }
 
-/* Smaller Devices */
-@media(max-width: 1024px) {
+@media (max-width: 768px) {
   header {
-      background-color: #ecf0f3;
-      padding: 18px 7%;
+    background-color: #ecf0f3;
+    padding: 16px 4%;
   }
 
   .hamburger {
-      display: block;
+    display: block;
   }
 
   .hamburger.active .bar:nth-child(2) {
-      opacity: 0;
+    opacity: 0;
   }
 
   .hamburger.active .bar:nth-child(1) {
-      transform: translateY(8px) rotate(45deg);
+    transform: translateY(8px) rotate(45deg);
   }
 
   .hamburger.active .bar:nth-child(3) {
-      transform: translateY(-8px) rotate(-45deg);
+    transform: translateY(-8px) rotate(-45deg);
   }
 
   .navbar {
-      position: fixed;
-      right: -150%;
-      top: 45px;
-      gap: 0;
-      flex-direction: column;
-      background-color: #ecf0f3;
-      width: 100%;
-      text-align: center;
-      transition: 0.3s;
-      z-index: 1;
+    position: fixed;
+    right: -150%;
+    top: 45px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #ecf0f3;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    z-index: 1;
   }
 
   .navbar li {
-      margin: 8px 0;
+    margin: 8px 0;
   }
 
   .navbar.active {
-      right: 0;
+    right: 0;
   }
 
   .logo {
-      font-size: 43px;
+    font-size: 40px;
   }
 }
 
-@media(max-width: 768px) {
+@media (max-width: 480px) {
   header {
-      background-color: #ecf0f3;
-      padding: 16px 4%;
+    background-color: #121212;
+    padding: 12px 2%;
   }
 
   .logo {
-      font-size: 40px;
-  }
-
-  .navbar {
-    top: 45px;
-  }
-}
-
-@media(max-width: 480px) {
-  header {
-      background-color: #121212;
-      padding: 12px 2%;
-  }
-
-  .logo {
-      font-size: 35px;
+    font-size: 35px;
   }
 
   .navbar {
