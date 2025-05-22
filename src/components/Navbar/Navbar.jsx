@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Navbar.css';
+import { navs } from "../data"
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -17,46 +18,17 @@ const Navbar = () => {
           height={75}
         />
         <ul className={`Navbar__List ${menuOpen ? 'active' : ''}`}>
-          <li>
-            <a
-              href='#home'
-              className='Navbar__Links'
-              onClick={closeMenu}>
-              HOME
-            </a>
-          </li>
-          <li>
-            <a
-              href='#about'
-              className='Navbar__Links'
-              onClick={closeMenu}>
-              ABOUT
-            </a>
-          </li>
-          <li>
-            <a
-              href='#skills'
-              className='Navbar__Links'
-              onClick={closeMenu}>
-              SKILLS
-            </a>
-          </li>
-          <li>
-            <a
-              href='#projects'
-              className='Navbar__Links'
-              onClick={closeMenu}>
-              PROJECTS
-            </a>
-          </li>
-          <li>
-            <a
-              href='#contact'
-              className='Navbar__Links'
-              onClick={closeMenu}>
-              CONTACT
-            </a>
-          </li>
+          {navs.map((nav) => (
+            <li>
+              <a
+                key={nav.id}
+                href={nav.url}
+                className='Navbar__Links'
+                onClick={closeMenu}>
+                {nav.name}
+              </a>
+            </li>
+          ))}
         </ul>
 
         <div
