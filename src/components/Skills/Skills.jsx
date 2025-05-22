@@ -22,7 +22,6 @@ const Skills = () => {
                       <img
                         src={skill.img}
                         width={64}
-                        length={64} 
                         alt={skill.name}
                         className='skill-image'
                       />
