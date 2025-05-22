@@ -68,6 +68,11 @@
   color: #007fff;
 }
 
+.home-spacing {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
 @media (max-width: 768px) {
   .Home__Name {
     font-size: 26px;
