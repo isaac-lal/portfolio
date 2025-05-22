@@ -4,6 +4,7 @@ header {
   right: 0;
   width: 100%;
   z-index: 1000;
+  transition: box-shadow 0.3s ease;
   background-color: #ecf0f3;
 }
 
@@ -62,6 +63,10 @@ header {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: #121212;
+}
+
+.Navbar__Shadow {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 768px) {
