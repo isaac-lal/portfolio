@@ -13,15 +13,15 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .navbar-list {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 30px;
+  gap: 1.875rem;
   list-style: none;
 }
 
@@ -38,7 +38,7 @@ header {
 .navbar-links:after {
   content: '';
   width: 0%;
-  height: 2px;
+  height: 0.125rem;
   background: #007fff;
   display: block;
   margin: auto;
@@ -56,9 +56,9 @@ header {
 
 .navbar-bar {
   display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px;
+  width: 1.5625rem;
+  height: 0.1875rem;
+  margin: 0.3125rem;
   margin-left: auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -72,7 +72,7 @@ header {
 @media (max-width: 768px) {
   header {
     background-color: #ecf0f3;
-    padding: 16px 4%;
+    padding: 1rem 4%;
   }
 
   .navbar-hamburger {
@@ -94,7 +94,7 @@ header {
   .navbar-list {
     position: fixed;
     right: -150%;
-    top: 65px;
+    top: 4.0625rem;
     gap: 0;
     flex-direction: column;
     background-color: #ecf0f3;
@@ -105,7 +105,7 @@ header {
   }
 
   .navbar-list li {
-    margin: 8px 0;
+    margin: 0.5rem 0;
   }
 
   .navbar-list.active {
@@ -114,18 +114,18 @@ header {
   }
 
   .navbar-wrapper {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
 @media (max-width: 480px) {
   header {
     background-color: #ecf0f3;
-    padding: 12px 2%;
+    padding: 0.75rem 2%;
   }
 
   .navbar-list {
-    top: 65px;
+    top: 4.0625rem;
   }
 }
