@@ -93,21 +93,16 @@ export const navs = [
   },
   {
     id: 2,
-    name: 'ABOUT',
-    url: '/#about',
-  },
-  {
-    id: 3,
     name: 'SKILLS',
     url: '/#skills',
   },
   {
-    id: 4,
+    id: 3,
     name: 'PROJECTS',
     url: '/#projects',
   },
   {
-    id: 5,
+    id: 4,
     name: 'CONTACT',
     url: '/#contact',
   },
