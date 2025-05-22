@@ -1,17 +1,15 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
-import { links } from '../data'
+import { links } from '../data';
 import './Home.css';
 
 const Home = () => {
   return (
-    <div
-      id='home'
-      className='Home__Header'>
+    <div id='home' className='home-header'>
       <div>
-        <p className='Home__Intro'>Welcome, my name is</p>
-        <h1 className='Home__Name'>Isaac Lal</h1>
-        <h2 className='Home__TypeAnimation'>
+        <p className='home-intro'>Welcome, my name is</p>
+        <h1 className='home-name'>Isaac Lal</h1>
+        <h2 className='home-type-animation'>
           <TypeAnimation
             sequence={[
               'A Web Developer',
@@ -35,22 +33,16 @@ const Home = () => {
             style={{ fontSize: '1.4em' }}
           />
         </h2>
-        <p className='Home__Connect'>Let's Connect</p>
-        <div className='Home__Links'>
+        <p className='home-connect'>Let's Connect</p>
+        <div className='home-links'>
           {links.map((link) => (
-           <div className='home-spacing'>
-          <a
-            key={link.id}
-                href={link.name}
-                target='_blank'
-                rel='noreferrer'>
-           
-            <div className='Home__LinkIcons'>
-              {link.icon}
+            <div className='home-spacing' key={link.id}>
+              <a href={link.name} target='_blank' rel='noreferrer'>
+                <div className='home-link-icons'>
+                  {link.icon}
+                </div>
+              </a>
             </div>
-          
-          </a>
-          </div>
           ))}
         </div>
       </div>
