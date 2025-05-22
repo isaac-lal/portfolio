@@ -6,7 +6,7 @@ import CPP_IMG from '/assets/skills/cpp.png';
 import Python_IMG from '/assets/skills/python.png';
 import CSharp_IMG from '/assets/skills/csharp.png';
 import Unity_IMG from '/assets/skills/unity.png';
-import WIP_IMG from '/assets/projects/wip.jpg'
+import WIP_IMG from '/assets/projects/wip.jpg';
 import { AiOutlineMail } from 'react-icons/ai';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { BsFillPersonFill } from 'react-icons/bs';
@@ -52,7 +52,7 @@ export const skills = [
     name: 'Unity',
     img: Unity_IMG,
   },
-]
+];
 
 export const projects = [
   {
@@ -93,16 +93,21 @@ export const navs = [
   },
   {
     id: 2,
+    name: 'ABOUT',
+    url: '/#about',
+  },
+  {
+    id: 3,
     name: 'SKILLS',
     url: '/#skills',
   },
   {
-    id: 3,
+    id: 4,
     name: 'PROJECTS',
     url: '/#projects',
   },
   {
-    id: 4,
+    id: 5,
     name: 'CONTACT',
     url: '/#contact',
   },
