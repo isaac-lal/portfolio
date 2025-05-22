@@ -21,7 +21,8 @@ const Skills = () => {
                     <div className='skill-image-container'>
                       <img
                         src={skill.img}
-                        width={64} 
+                        width={64}
+                        length={64} 
                         alt={skill.name}
                         className='skill-image'
                       />
