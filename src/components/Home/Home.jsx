@@ -12,19 +12,15 @@ const Home = () => {
         <h2 className='home-type-animation'>
           <TypeAnimation
             sequence={[
-              'A Web Developer',
+              'A Developer',
               3000,
-              'A I.T. Professional',
-              3000,
-              'A Software Engineer',
+              'A I.T. Enthusiast',
               3000,
               'A Coder',
               3000,
               'A Gamer',
               3000,
               'A Nerd',
-              3000,
-              'A Nice Person',
               3000,
             ]}
             wrapper='div'
