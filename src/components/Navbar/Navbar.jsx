@@ -11,7 +11,7 @@ const Navbar = () => {
     <header className={menuOpen ? 'sticky' : ''}>
       <div className='Navbar__Wrapper'>
         <img
-          src='public/assets/logo.png'
+          src='assets/logo.png'
           alt=''
           width={75}
           height={75}
