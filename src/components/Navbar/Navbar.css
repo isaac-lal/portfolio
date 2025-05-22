@@ -8,7 +8,7 @@ header {
   background-color: #ecf0f3;
 }
 
-.Navbar__Wrapper {
+.navbar-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,7 +17,7 @@ header {
   padding-right: 24px;
 }
 
-.Navbar__List {
+.navbar-list {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,17 +25,17 @@ header {
   list-style: none;
 }
 
-.Navbar__Links {
+.navbar-links {
   color: #121212;
   text-decoration: none;
   transition: 0.25s;
 }
 
-.Navbar__Links:hover {
+.navbar-links:hover {
   color: #007fff;
 }
 
-.Navbar__Links:after {
+.navbar-links:after {
   content: '';
   width: 0%;
   height: 2px;
@@ -45,16 +45,16 @@ header {
   transition: 0.25s;
 }
 
-.Navbar__Links:hover::after {
+.navbar-links:hover::after {
   width: 100%;
 }
 
-.Navbar__Hamburger {
+.navbar-hamburger {
   display: none;
   cursor: pointer;
 }
 
-.Navbar__Bar {
+.navbar-bar {
   display: block;
   width: 25px;
   height: 3px;
@@ -65,7 +65,7 @@ header {
   background-color: #121212;
 }
 
-.Navbar__Shadow {
+.navbar-shadow {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -75,23 +75,23 @@ header {
     padding: 16px 4%;
   }
 
-  .Navbar__Hamburger {
+  .navbar-hamburger {
     display: block;
   }
 
-  .Navbar__Hamburger.active .Navbar__Bar:nth-child(2) {
+  .navbar-hamburger.active .navbar-bar:nth-child(2) {
     opacity: 0;
   }
 
-  .Navbar__Hamburger.active .Navbar__Bar:nth-child(1) {
+  .navbar-hamburger.active .navbar-bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
   }
 
-  .Navbar__Hamburger.active .Navbar__Bar:nth-child(3) {
+  .navbar-hamburger.active .navbar-bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
 
-  .Navbar__List {
+  .navbar-list {
     position: fixed;
     right: -150%;
     top: 65px;
@@ -104,16 +104,16 @@ header {
     z-index: 1;
   }
 
-  .Navbar__List li {
+  .navbar-list li {
     margin: 8px 0;
   }
 
-  .Navbar__List.active {
+  .navbar-list.active {
     right: 0;
     padding-left: 0;
   }
 
-  .Navbar__Wrapper {
+  .navbar-wrapper {
     padding-left: 0px;
     padding-right: 0px;
   }
@@ -125,7 +125,7 @@ header {
     padding: 12px 2%;
   }
 
-  .Navbar__List {
+  .navbar-list {
     top: 65px;
   }
 }

@@ -18,9 +18,9 @@ const Navbar = () => {
   }, []);
 
   return (
-    <header className={shadow ? 'Navbar__Shadow' : ''}>
+    <header className={shadow ? 'navbar-shadow' : ''}>
       <div className={menuOpen ? 'sticky' : ''}>
-        <div className='Navbar__Wrapper'>
+        <div className='navbar-wrapper'>
           <img
             src='/assets/logo.png'
             alt=''
@@ -28,15 +28,14 @@ const Navbar = () => {
             height={75}
           />
           <ul
-            className={`Navbar__List ${
-              menuOpen ? 'active Navbar__Shadow' : ''
+            className={`navbar-list ${
+              menuOpen ? 'active navbar-shadow' : ''
             }`}>
             {navs.map((nav) => (
-              <li>
+              <li key={nav.id}>
                 <a
-                  key={nav.id}
                   href={nav.url}
-                  className='Navbar__Links'
+                  className='navbar-links'
                   onClick={closeMenu}>
                   {nav.name}
                 </a>
@@ -44,11 +43,11 @@ const Navbar = () => {
             ))}
           </ul>
           <div
-            className={`Navbar__Hamburger ${menuOpen ? 'active' : ''}`}
+            className={`navbar-hamburger ${menuOpen ? 'active' : ''}`}
             onClick={toggleMenu}>
-            <span className='Navbar__Bar'></span>
-            <span className='Navbar__Bar'></span>
-            <span className='Navbar__Bar'></span>
+            <span className='navbar-bar'></span>
+            <span className='navbar-bar'></span>
+            <span className='navbar-bar'></span>
           </div>
         </div>
       </div>
