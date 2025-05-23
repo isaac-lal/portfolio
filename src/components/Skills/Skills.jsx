@@ -4,7 +4,7 @@ import './Skills.css';
 
 const Skills = () => {
   return (
-    <section id='skills' className='skills-section'>
+    <div id='skills' className='skills-section'>
       <div className='skills-container'>
         <h6 className='skills-subtitle'>
           Skills
@@ -36,7 +36,7 @@ const Skills = () => {
           ))}
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

@@ -5,7 +5,7 @@ import './Home.css';
 
 const Home = () => {
   return (
-    <div id='home' className='home-header'>
+    <div id='home' className='home-section'>
       <div>
         <p className='home-intro'>Welcome, my name is</p>
         <h1 className='home-name'>Isaac Lal</h1>
