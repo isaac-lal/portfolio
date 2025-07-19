@@ -48,8 +48,6 @@
   }
 }
 
-.project-card-wrapper {
-}
 
 .project-card {
   display: flex;
@@ -109,9 +107,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.project-link-wrapper {
 }
 
 .project-links-container .project-link-wrapper:first-child {
