@@ -1,5 +1,5 @@
 import Navbar from "../components/Navbar";
-import StarBackground from "@/components/StarBackground";
+import { StarBackground } from "@/components/StarBackground";
 import Hero from "../components/Hero";
 import About from "../components/About";
 import Skills from "../components/Skills";
